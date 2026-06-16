@@ -18,8 +18,27 @@ Run KiCad **inside the Linux devenv container via WSLg** (not as a Windows app),
 2. ✅ **Wire `install-kicad` into the devenv Dockerfile** (`COPY install-kicad` + `RUN ./install-kicad`) — done.
 3. ✅ **Rebuild the devenv image** — done; container now builds from the Dockerfile with KiCad included (2026-06-16).
 4. **Install the JLCPCB plugins** from inside KiCad (Plugins → Plugin and Content Manager): "JLCPCB tools" (Bouni) and/or "Fabrication Toolkit". These are per-user-config/GUI, intentionally NOT in the install script.
-5. **Create the shared-library repo** — a dedicated git repo with `symbols/` `footprints/` `3dmodels/`. Reference it from KiCad via an env var (e.g. `MYLIB`) set in Preferences → Configure Paths, so library tables stay portable. Start with a single central clone; move to git submodules per-project only if version pinning is needed.
-6. **Test the full JLCPCB flow** — pull a part with `easyeda2kicad --full --lcsc_id <Cxxxx>` into the shared library, place it, and generate JLCPCB fab files via the plugin.
+5. **Set up the `kicad-shared` library repo** (hybrid path scheme: one env var → absolute path, everything references `${KICAD_USER_LIB}`). Checklist:
+
+   - [ ] **Create the repo + initial layout.** Match `easyeda2kicad`'s output convention: a shared base name with three siblings (symbol file, footprint dir, 3D-model dir). Start with one base name `jlcpcb` for tool-pulled parts:
+     ```
+     kicad-shared/
+     ├── README.md            # purpose, layout, the ${KICAD_USER_LIB} convention, lib-table entries to add
+     ├── .gitignore           # fp-info-cache, *-bak, *.bak, *~, _autosave-*, .DS_Store
+     ├── jlcpcb.kicad_sym     # symbol library (start empty / created on first pull)
+     ├── jlcpcb.pretty/       # footprint library (dir of .kicad_mod); add .gitkeep
+     └── jlcpcb.3dshapes/     # 3D models (.wrl/.step); add .gitkeep
+     ```
+     (Add a second base name later for hand-curated parts, e.g. `custom.kicad_sym` / `custom.pretty/` / `custom.3dshapes/`.) Clone it to a stable absolute path in the container, e.g. `/claude-repos/kicad-shared`.
+   - [ ] **Define `KICAD_USER_LIB` as a container OS env var** in the devenv compose (NOT via Configure Paths) → the absolute clone path. This is the single point of truth; KiCad reads OS env vars and they take precedence, so no config syncing is needed across machines.
+   - [ ] **Add global library-table entries** (Preferences → Manage Symbol/Footprint Libraries, or edit `~/.config/kicad/9.0/{sym,fp}-lib-table`):
+     - symbol: nickname `jlcpcb`, uri `${KICAD_USER_LIB}/jlcpcb.kicad_sym`
+     - footprint: nickname `jlcpcb`, uri `${KICAD_USER_LIB}/jlcpcb.pretty`
+   - [ ] **Verify 3D-model paths resolve via the var.** After the first `easyeda2kicad` pull, open a footprint and check the 3D model path it wrote — make sure it's `${KICAD_USER_LIB}/jlcpcb.3dshapes/...` and not a baked-in absolute path. Fix the tool invocation / footprint if it baked an absolute path (this is the one thing the hybrid scheme is protecting against).
+   - [ ] **(doc)** Once it's working, write a "library layout + config locations + path setup" section into [kicad-startup.md](kicad-startup.md): the three XDG dirs (`~/.config/kicad/9.0`, `~/.local/share/kicad/9.0`, `~/.cache/kicad`), what's shareable vs the cache (never share), and the `KICAD_USER_LIB` convention.
+
+   Start with a single central clone; move to git submodules per-project only if version pinning is later needed.
+6. **Test the full JLCPCB flow** — pull a part into the shared library with `easyeda2kicad --full --lcsc_id <Cxxxx> --output ${KICAD_USER_LIB}/jlcpcb`, place it from the `jlcpcb` libs, confirm the 3D model shows in the viewer, and generate JLCPCB fab files via the plugin.
 
 ## Pinned: GPU acceleration — works, but deferring the decision (2026-06-16)
 
