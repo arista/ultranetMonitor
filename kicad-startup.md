@@ -56,15 +56,33 @@ RUN apt-get update && apt-get install -y --no-install-recommends software-proper
 
 ## GPU acceleration (optional, do later if 3D viewer is too slow)
 
-To replace `llvmpipe` with the WSL d3d12 GPU driver, pass these from the WSL host into the container at run time:
+By default the container renders OpenGL with `llvmpipe` (Mesa's CPU rasterizer). Fine for schematic capture and 2D layout; only the **3D viewer** is slow on complex boards. To use the real GPU via WSL's d3d12 driver, three things must all be present:
 
-```
---device /dev/dxg
--v /usr/lib/wsl:/usr/lib/wsl
--e LD_LIBRARY_PATH=/usr/lib/wsl/lib
+1. **`/dev/dxg`** — the GPU kernel interface. (We mount all of `/dev` into the container for USB passthrough, so this comes along automatically — no `devices:` list needed.)
+2. **`/usr/lib/wsl/lib`** — the userspace D3D12 libraries (`libd3d12core.so`, `libdxcore.so`) Mesa's `d3d12_dri.so` driver dlopens to talk to the GPU. **This is the piece that's easy to miss** — without it, Mesa silently falls back to `llvmpipe`.
+3. **`LD_LIBRARY_PATH`** pointing at those libs, so the driver can find them.
+
+The `d3d12_dri.so` driver itself is already installed (ships in `libgl1-mesa-dri`), so no extra package is needed. In docker compose:
+
+```yaml
+services:
+  <your-service>:
+    volumes:
+      - /dev:/dev                      # USB passthrough; also brings /dev/dxg
+      - /usr/lib/wsl:/usr/lib/wsl:ro   # the easily-missed D3D12 libs
+    environment:
+      - LD_LIBRARY_PATH=/usr/lib/wsl/lib   # append (:$LD_LIBRARY_PATH) if already set
 ```
 
-Then `glxinfo` should report a `D3D12` renderer instead of `llvmpipe`. Not required to get started.
+(`LD_LIBRARY_PATH` can instead be `ENV LD_LIBRARY_PATH=/usr/lib/wsl/lib` in the Dockerfile — either works.)
+
+Verify after recreating the container:
+
+```bash
+glxinfo -B | grep -i renderer    # want "D3D12 (…)", not "llvmpipe"
+```
+
+Note: bind-mounting all of `/dev` is broad (≈ part of what `--privileged` grants — the container can see every host device). Fine for a personal single-user devenv; tighten to an explicit `devices:` list if this setup is ever shared.
 
 ## JLCPCB / LCSC integration
 
@@ -95,7 +113,7 @@ KiCad honors `KICAD_CONFIG_HOME`. Default is `~/.config/kicad/9.0/` in Linux. Si
 
 - [x] Confirm `xeyes` was visible on the Windows desktop (display path sanity check). **Confirmed 2026-06-15.**
 - [x] Finish KiCad install + launch `kicad` to confirm the GUI comes up. **KiCad 9.0.9 installed from PPA; GUI launched and confirmed visible on the Windows desktop 2026-06-15.**
-- [ ] Add the Dockerfile snippet to the devenv build so it's reproducible.
+- [x] Add the Dockerfile snippet to the devenv build so it's reproducible. **Done 2026-06-16 — container now builds from the Dockerfile with KiCad included.**
 - [ ] Create the shared-library repo and wire up the `MYLIB` env var.
 - [ ] Install easyeda2kicad + the JLCPCB plugin and do a test part pull.
 
