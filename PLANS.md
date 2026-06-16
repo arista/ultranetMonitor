@@ -21,6 +21,24 @@ Run KiCad **inside the Linux devenv container via WSLg** (not as a Windows app),
 5. **Create the shared-library repo** — a dedicated git repo with `symbols/` `footprints/` `3dmodels/`. Reference it from KiCad via an env var (e.g. `MYLIB`) set in Preferences → Configure Paths, so library tables stay portable. Start with a single central clone; move to git submodules per-project only if version pinning is needed.
 6. **Test the full JLCPCB flow** — pull a part with `easyeda2kicad --full --lcsc_id <Cxxxx>` into the shared library, place it, and generate JLCPCB fab files via the plugin.
 
-## Optional / later
+## In progress: GPU acceleration troubleshooting (paused 2026-06-16)
 
-- **GPU acceleration:** current GL is `llvmpipe` (CPU software rendering) — fine for 2D, slow for the 3D viewer on complex boards. To use the WSL GPU, pass `--device /dev/dxg`, `-v /usr/lib/wsl:/usr/lib/wsl`, and `-e LD_LIBRARY_PATH=/usr/lib/wsl/lib` into the container at run time. Only do this if the 3D viewer becomes annoying.
+**Goal:** get hardware OpenGL (D3D12 renderer) instead of `llvmpipe` (CPU software) for a smooth KiCad 3D viewer. Optional polish — `llvmpipe` is fine for schematic + 2D layout.
+
+**Where we are: the problem is WSL/Windows-side, NOT the container.** The container is wired correctly and faithfully inherits a host that can't do GPU GL.
+
+Confirmed:
+- Container config is correct and in place: compose mounts `/dev:/dev` (USB + brings `/dev/dxg`) and `/usr/lib/wsl:/usr/lib/wsl:ro`, plus `LD_LIBRARY_PATH=/usr/lib/wsl/lib`. The `d3d12_dri.so` driver ships in `libgl1-mesa-dri`. Container checklist steps 1–6 all passed.
+- **Host (WSL) itself has no GPU GL** — this is the root cause:
+  - `glxinfo -B` on the host → `MESA: error: ZINK: failed to choose pdev` / `glx: failed to create drisw screen` / `Dropped Escape call ... 0x03007703`.
+  - `vulkaninfo --summary` on the host → only `llvmpipe` (lavapipe = software Vulkan). So **no hardware GPU is reaching WSL at all**, neither GL (d3d12) nor Vulkan (dzn). Everything falls back to software.
+
+**Next steps (host/Windows side) — pick up here after the WSL restart:**
+1. **Windows PowerShell:** `wsl --version`, then `wsl --update`, then `wsl --shutdown`. Reopen WSL, re-test host: `glxinfo -B | grep -i renderer`.
+2. If still software → **update the Windows vendor GPU driver** (NVIDIA/AMD/Intel — the WSL D3D12/dzn drivers ship inside it). Reboot Windows, `wsl --shutdown`, re-test.
+3. If still software after both → GPU/Windows likely too old for GPU-PV (needs WDDM 2.9+, Win10 21H2+/Win11); software rendering is the ceiling on this machine — stop here and live with `llvmpipe`.
+4. **Once the host `glxinfo` shows `D3D12 (…)`**, the container inherits it automatically (config already correct) — just verify inside the container: `glxinfo -B | grep -i renderer`.
+
+**Info still to gather (helps decide if worth pushing):** GPU model, Windows version, `wsl --version` output, `ls -l /dev/dxg` and `uname -r` on the host.
+
+**Resume note:** restarting all of WSL (`wsl --shutdown`) will also take down the Claude sandbox container. Everything persists on the `claude-repos` + `claude-home` docker volumes; reconnect with `claude -c` from `/claude-repos/ultranetMonitor`. Full GPU details/decode are in [kicad-startup.md](kicad-startup.md) "GPU acceleration".
