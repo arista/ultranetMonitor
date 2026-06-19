@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "702cfe06-53da-4e61-a651-a69000af39dd")
+	(uuid "340ece6e-82a0-4a46-a0dd-cd50427081c7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "jlcpcb:HS180S10B"

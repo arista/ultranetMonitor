@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "37434ef3-8e8d-418f-9944-f3988adba366")
+	(uuid "8cafab27-226c-409e-8053-13962f5f6f6f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "jlcpcb:0402CG300J500NT"
