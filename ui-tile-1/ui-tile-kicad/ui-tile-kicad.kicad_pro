@@ -648,13 +648,25 @@
         "uuid": "217f9734-29d5-465f-84f0-e59e73a19da8"
       }
     ],
-    "used_designators": "X1-2,SW1-5,LED1-2,C1-21,U1-4,#PWR1-21,#FLG1-6,R1-10,USBC1-2,D1-3",
+    "used_designators": "#FLG1,#FLG3-6,R1-9,D1-2,#PWR1-21,LED1-2,C1-17,SW1-7,U1-3,USBC1,X1,LCD1-2",
     "variants": []
   },
   "sheets": [
     [
       "217f9734-29d5-465f-84f0-e59e73a19da8",
       "ui-tile-kicad"
+    ],
+    [
+      "de1a7ee9-251a-4ac8-ae90-4fe30991e0ef",
+      "rp2040"
+    ],
+    [
+      "b6fa735c-0297-45cf-afbe-df48e65d71bb",
+      "encoders"
+    ],
+    [
+      "3a542cf4-c4b2-4878-80be-6c3fa034fdc4",
+      "lcd"
     ]
   ],
   "text_variables": {},
