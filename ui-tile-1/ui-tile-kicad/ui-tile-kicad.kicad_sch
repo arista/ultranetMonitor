@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "0402CG220J500NT"
+			(property "Value" "22pF"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +215,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF1001TCE"
+			(property "Value" "1k"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -369,7 +369,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF1002TCE"
+			(property "Value" "10k"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -523,7 +523,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF274JTCE"
+			(property "Value" "27.4R"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -677,7 +677,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF5101TCE"
+			(property "Value" "5.1k"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -831,7 +831,7 @@
 					)
 				)
 			)
-			(property "Value" "CL05A105KA5NQNC"
+			(property "Value" "1uF"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1022,7 +1022,7 @@
 					)
 				)
 			)
-			(property "Value" "CL05B104KO5NNNC"
+			(property "Value" "100nF"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3355,7 +3355,7 @@
 					)
 				)
 			)
-			(property "Value" "X322512MSB4SI"
+			(property "Value" "12MHz"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8455,7 +8455,7 @@
 				)
 			)
 		)
-		(property "Value" "27.4"
+		(property "Value" "27.4R"
 			(at 121.666 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +9766,7 @@
 				)
 			)
 		)
-		(property "Value" "27.4"
+		(property "Value" "27.4R"
 			(at 121.666 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
