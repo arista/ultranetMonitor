@@ -1,0 +1,25 @@
+# KiCad — ignore auto-generated / local-only files for every project under this dir.
+# Patterns have no leading slash, so they match at any depth (all future projects).
+
+# Local History snapshots (KiCad 10 File > Local History; each is its own git repo)
+.history/
+
+# Lock files written while a project/schematic/board is open
+*.lck
+
+# Auto-save and backup files
+_autosave-*
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*~
+
+# Footprint info cache (regenerated automatically)
+fp-info-cache
+
+# Optionally ignore exported artifacts (uncomment if you generate these):
+# *.net
+# *.dsn
+# *.ses
+# gerbers/
