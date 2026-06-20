@@ -648,7 +648,7 @@
         "uuid": "217f9734-29d5-465f-84f0-e59e73a19da8"
       }
     ],
-    "used_designators": "#FLG1,#FLG3-6,R1-9,D1-2,#PWR1-21,LED1-6,C1-17,SW1-7,U1-3,USBC1,X1,LCD1-2",
+    "used_designators": "Q1-2,R10-14,#PWR42-44,C18-22",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,14 @@
     [
       "3a542cf4-c4b2-4878-80be-6c3fa034fdc4",
       "lcd"
+    ],
+    [
+      "bacb206e-fb69-4d1c-9d47-6a0677363247",
+      "leds"
+    ],
+    [
+      "2a08148c-3c62-4a68-9e54-6956994bee8a",
+      "headers"
     ]
   ],
   "text_variables": {},

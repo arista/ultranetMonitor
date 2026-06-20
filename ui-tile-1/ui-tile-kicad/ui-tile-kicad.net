@@ -1,0 +1,8226 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\arista\\win-repos-claude\\ultranetMonitor\\ui-tile-1\\ui-tile-kicad\\ui-tile-kicad.kicad_sch")
+		(date "2026-06-19T23:51:41")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "UI Tile 1 - 2026-06")
+				(company)
+				(rev)
+				(date)
+				(source "ui-tile-kicad.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/rp2040/")
+			(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "rp2040.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "3")
+			(name "/encoders/")
+			(tstamps "/b6fa735c-0297-45cf-afbe-df48e65d71bb/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "encoders.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "4")
+			(name "/lcd/")
+			(tstamps "/3a542cf4-c4b2-4878-80be-6c3fa034fdc4/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "lcd.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "5")
+			(name "/leds/")
+			(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "leds.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "6")
+			(name "/headers/")
+			(tstamps "/2a08148c-3c62-4a68-9e54-6956994bee8a/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "headers.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "577f316b-249b-4242-b774-f1451465237c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "20b21c76-c894-460f-b1b8-5495a4956897")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "1uF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html")
+			(description "1uF (105) ±10% 25V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05A105KA5NQNC")
+				(field
+					(name "LCSC Part") "C52923")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html")
+				(field
+					(name "Description") "1uF (105) ±10% 25V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05A105KA5NQNC")
+				(description "1uF (105) ±10% 25V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05A105KA5NQNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C52923")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "65ef3111-9fa5-4c3e-9f48-5ceb85dae824")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "1uF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html")
+			(description "1uF (105) ±10% 25V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05A105KA5NQNC")
+				(field
+					(name "LCSC Part") "C52923")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html")
+				(field
+					(name "Description") "1uF (105) ±10% 25V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05A105KA5NQNC")
+				(description "1uF (105) ±10% 25V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05A105KA5NQNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C52923")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "9e5b34c5-b557-4b78-bea0-af7a53679c2b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "0e5c3ad9-e09c-4b55-ae9a-f7305f1e16b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "a4eadf06-3c4e-4732-b65e-3932ed537286")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "a9a2490e-4063-4a15-a7ab-47d79a7c2698")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "b4fb1652-470e-437a-a25c-5221bebe41fa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "3cb46535-c285-4099-b214-61473a9d5b08")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "ac69b439-124d-4c97-b5e6-8ac9fe8fd384")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "30pF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html")
+			(description "30pF (300) ±5% 50V")
+			(fields
+				(field
+					(name "Manufacturer") "FH(风华)")
+				(field
+					(name "MPN") "0402CG300J500NT")
+				(field
+					(name "LCSC Part") "C1570")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html")
+				(field
+					(name "Description") "30pF (300) ±5% 50V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402CG300J500NT")
+				(description "30pF (300) ±5% 50V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FH(风华)")
+			)
+			(property
+				(name "MPN")
+				(value "0402CG300J500NT")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1570")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "9270385e-a31c-445d-913b-8ca04dfa2ff8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "30pF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html")
+			(description "30pF (300) ±5% 50V")
+			(fields
+				(field
+					(name "Manufacturer") "FH(风华)")
+				(field
+					(name "MPN") "0402CG300J500NT")
+				(field
+					(name "LCSC Part") "C1570")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html")
+				(field
+					(name "Description") "30pF (300) ±5% 50V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402CG300J500NT")
+				(description "30pF (300) ±5% 50V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FH(风华)")
+			)
+			(property
+				(name "MPN")
+				(value "0402CG300J500NT")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1570")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "f48f0e9f-7e6d-4093-9a49-a660689bf17d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "bc0d3225-656d-4191-b5c7-dbef8aab92cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "10uF")
+			(footprint "jlcpcb:C0805")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+			(description "10uF (106) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL21A106KOQNNNE")
+				(field
+					(name "LCSC Part") "C1713")
+				(field
+					(name "Footprint") "jlcpcb:C0805")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+				(field
+					(name "Description") "10uF (106) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL21A106KOQNNNE")
+				(description "10uF (106) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL21A106KOQNNNE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1713")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "3d042830-c4f9-4924-9df3-a4124ff30d73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "2d478326-df50-43f0-96c3-4fd0b0f8893b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "10uF")
+			(footprint "jlcpcb:C0805")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+			(description "10uF (106) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL21A106KOQNNNE")
+				(field
+					(name "LCSC Part") "C1713")
+				(field
+					(name "Footprint") "jlcpcb:C0805")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+				(field
+					(name "Description") "10uF (106) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL21A106KOQNNNE")
+				(description "10uF (106) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL21A106KOQNNNE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1713")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "f2b2471b-b30b-49d8-ba35-4f44bc9b9306")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "8ac1a8b4-fc12-4f1b-a5a4-43cf6f6f27d4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "B5819W_C8598")
+			(footprint "jlcpcb:SOD-123_L2.7-W1.6-LS3.7-RD-1")
+			(datasheet "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html")
+			(description "Schottky Diode 1A")
+			(fields
+				(field
+					(name "Manufacturer") "CJ(江苏长电/长晶)")
+				(field
+					(name "MPN") "B5819W SL")
+				(field
+					(name "LCSC Part") "C8598")
+				(field
+					(name "Footprint") "jlcpcb:SOD-123_L2.7-W1.6-LS3.7-RD-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html")
+				(field
+					(name "Description") "Schottky Diode 1A")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "B5819W_C8598")
+				(description "Schottky Diode 1A")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CJ(江苏长电/长晶)")
+			)
+			(property
+				(name "MPN")
+				(value "B5819W SL")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C8598")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Schottky Barrier Diodes (SBD)")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "51a8b5f7-cdae-4268-aa00-34fcfa0e450c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "B5819W_C8598")
+			(footprint "jlcpcb:SOD-123_L2.7-W1.6-LS3.7-RD-1")
+			(datasheet "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html")
+			(description "Schottky Diode 1A")
+			(fields
+				(field
+					(name "Manufacturer") "CJ(江苏长电/长晶)")
+				(field
+					(name "MPN") "B5819W SL")
+				(field
+					(name "LCSC Part") "C8598")
+				(field
+					(name "Footprint") "jlcpcb:SOD-123_L2.7-W1.6-LS3.7-RD-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html")
+				(field
+					(name "Description") "Schottky Diode 1A")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "B5819W_C8598")
+				(description "Schottky Diode 1A")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CJ(江苏长电/长晶)")
+			)
+			(property
+				(name "MPN")
+				(value "B5819W SL")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C8598")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Schottky Barrier Diodes (SBD)")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "daa83a2c-f815-46c7-9c51-21c9a4914118")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "KT-0603R")
+			(footprint "jlcpcb:LED-SMD_L1.6-W0.8-R-RD")
+			(datasheet "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html")
+			(description "LED Red 0603")
+			(fields
+				(field
+					(name "Manufacturer") "KENTO")
+				(field
+					(name "MPN") "KT-0603R")
+				(field
+					(name "LCSC Part") "C2286")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_L1.6-W0.8-R-RD")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html")
+				(field
+					(name "Description") "LED Red 0603")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "KT-0603R")
+				(description "LED Red 0603")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KENTO")
+			)
+			(property
+				(name "MPN")
+				(value "KT-0603R")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C2286")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Light Emitting Diodes (LED)")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "bfddf084-deea-4fa4-ad3d-15e8f1001215")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2")
+			(value "KT-0603R")
+			(footprint "jlcpcb:LED-SMD_L1.6-W0.8-R-RD")
+			(datasheet "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html")
+			(description "LED Red 0603")
+			(fields
+				(field
+					(name "Manufacturer") "KENTO")
+				(field
+					(name "MPN") "KT-0603R")
+				(field
+					(name "LCSC Part") "C2286")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_L1.6-W0.8-R-RD")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html")
+				(field
+					(name "Description") "LED Red 0603")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "KT-0603R")
+				(description "LED Red 0603")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KENTO")
+			)
+			(property
+				(name "MPN")
+				(value "KT-0603R")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C2286")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Light Emitting Diodes (LED)")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "0173f4db-d571-4d9b-9a2b-32896dc73d1f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "27.4R")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27-4R-27R4-1_C31439.html")
+			(description "27.4Ω (27R4) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF274JTCE")
+				(field
+					(name "LCSC Part") "C31439")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27-4R-27R4-1_C31439.html")
+				(field
+					(name "Description") "27.4Ω (27R4) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF274JTCE")
+				(description "27.4Ω (27R4) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF274JTCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C31439")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "67370908-78ea-4b2a-8d59-951b14de76fc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "27.4R")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27-4R-27R4-1_C31439.html")
+			(description "27.4Ω (27R4) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF274JTCE")
+				(field
+					(name "LCSC Part") "C31439")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27-4R-27R4-1_C31439.html")
+				(field
+					(name "Description") "27.4Ω (27R4) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF274JTCE")
+				(description "27.4Ω (27R4) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF274JTCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C31439")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "0aff4526-cbcb-4e0c-9ba9-14e779d4f9f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "5.1k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html")
+			(description "5.1KΩ (5101) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF5101TCE")
+				(field
+					(name "LCSC Part") "C25905")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html")
+				(field
+					(name "Description") "5.1KΩ (5101) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF5101TCE")
+				(description "5.1KΩ (5101) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF5101TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25905")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "859eba55-50e8-41b3-b950-91fefcabcc9c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "5.1k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html")
+			(description "5.1KΩ (5101) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF5101TCE")
+				(field
+					(name "LCSC Part") "C25905")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html")
+				(field
+					(name "Description") "5.1KΩ (5101) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF5101TCE")
+				(description "5.1KΩ (5101) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF5101TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25905")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "ddc26bc5-9029-44a5-af6a-b5120906809d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "1k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html")
+			(description "1KΩ (1001) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1001TCE")
+				(field
+					(name "LCSC Part") "C11702")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html")
+				(field
+					(name "Description") "1KΩ (1001) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF1001TCE")
+				(description "1KΩ (1001) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1001TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C11702")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "1328bf4f-db34-4b39-8756-fcd12f4bc7c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "10k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+			(description "10KΩ (1002) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1002TCE")
+				(field
+					(name "LCSC Part") "C25744")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+				(field
+					(name "Description") "10KΩ (1002) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF1002TCE")
+				(description "10KΩ (1002) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1002TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25744")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "22100e15-073c-4c4e-88f2-f25c93693735")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "10k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+			(description "10KΩ (1002) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1002TCE")
+				(field
+					(name "LCSC Part") "C25744")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+				(field
+					(name "Description") "10KΩ (1002) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF1002TCE")
+				(description "10KΩ (1002) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1002TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25744")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "a8313688-d767-4548-8cd5-b5ec7aa67231")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "1k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html")
+			(description "1KΩ (1001) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1001TCE")
+				(field
+					(name "LCSC Part") "C11702")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html")
+				(field
+					(name "Description") "1KΩ (1001) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF1001TCE")
+				(description "1KΩ (1001) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1001TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C11702")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "663a05b1-3e85-446f-a55c-7993bcdcf5a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "1.5k")
+			(footprint "jlcpcb:R0603")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-5KR-1501-1_C22843.html")
+			(description "1.5KΩ (1501) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0603WAF1501T5E")
+				(field
+					(name "LCSC Part") "C22843")
+				(field
+					(name "Footprint") "jlcpcb:R0603")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-5KR-1501-1_C22843.html")
+				(field
+					(name "Description") "1.5KΩ (1501) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0603WAF1501T5E")
+				(description "1.5KΩ (1501) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF1501T5E")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C22843")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "62618e4d-5c27-4cd6-ae76-480e36979217")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SKRPABE010")
+			(footprint "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6")
+			(datasheet "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPABE010_3-2-4-2-2-5-1-57N_C115360.html")
+			(description "SPST Pushbutton, small smd")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "SKRPABE010")
+				(field
+					(name "LCSC Part") "C115360")
+				(field
+					(name "Footprint") "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPABE010_3-2-4-2-2-5-1-57N_C115360.html")
+				(field
+					(name "Description") "SPST Pushbutton, small smd")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "SKRPABE010")
+				(description "SPST Pushbutton, small smd")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "SKRPABE010")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C115360")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Tactile Switches")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "17a9342b-fe64-4052-a0e8-c6a15bfe07a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SKRPABE010")
+			(footprint "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6")
+			(datasheet "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPABE010_3-2-4-2-2-5-1-57N_C115360.html")
+			(description "SPST Pushbutton, small smd")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "SKRPABE010")
+				(field
+					(name "LCSC Part") "C115360")
+				(field
+					(name "Footprint") "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPABE010_3-2-4-2-2-5-1-57N_C115360.html")
+				(field
+					(name "Description") "SPST Pushbutton, small smd")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "SKRPABE010")
+				(description "SPST Pushbutton, small smd")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "SKRPABE010")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C115360")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Tactile Switches")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "e4983cdf-9ae1-4684-a268-4f01ac28805a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "RP2040")
+			(footprint "jlcpcb:LQFN-56_L7.0-W7.0-P0.4-EP")
+			(datasheet "https://www.lcsc.com/datasheet/C2040.pdf")
+			(description "RP 2040 microcontroller")
+			(fields
+				(field
+					(name "Manufacturer") "Raspberry Pi(树莓派)")
+				(field
+					(name "MPN") "RP2040")
+				(field
+					(name "LCSC Part") "C2040")
+				(field
+					(name "Footprint") "jlcpcb:LQFN-56_L7.0-W7.0-P0.4-EP")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C2040.pdf")
+				(field
+					(name "Description") "RP 2040 microcontroller")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "RP2040")
+				(description "RP 2040 microcontroller")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Raspberry Pi(树莓派)")
+			)
+			(property
+				(name "MPN")
+				(value "RP2040")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C2040")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Other Processors and Microcontrollers (MCUs)")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "b40f0e72-ec96-4dea-bd69-a8370fcd34f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "50")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "41")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "W25Q16JVUXIQ")
+			(footprint "jlcpcb:USON-8_L3.0-W2.0-P0.50-BL-EP")
+			(datasheet "https://www.lcsc.com/datasheet/C2843335.pdf")
+			(description "SPI Flash 16Mbit")
+			(fields
+				(field
+					(name "Manufacturer") "Winbond(华邦)")
+				(field
+					(name "MPN") "W25Q16JVUXIQ")
+				(field
+					(name "LCSC Part") "C2843335")
+				(field
+					(name "Footprint") "jlcpcb:USON-8_L3.0-W2.0-P0.50-BL-EP")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C2843335.pdf")
+				(field
+					(name "Description") "SPI Flash 16Mbit")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "W25Q16JVUXIQ")
+				(description "SPI Flash 16Mbit")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Winbond(华邦)")
+			)
+			(property
+				(name "MPN")
+				(value "W25Q16JVUXIQ")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C2843335")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NOR FLASH")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "2e886b69-3c68-4e6f-ad2e-4edd318e21e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "NCP1117ST33T3G")
+			(footprint "jlcpcb:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR")
+			(datasheet "https://lcsc.com/product-detail/Linear-Voltage-Regulators_ON_NCP1117ST33T3G_NCP1117ST33T3G_C26537.html")
+			(description "3.3V 800mA regulator")
+			(fields
+				(field
+					(name "Manufacturer") "onsemi(安森美)")
+				(field
+					(name "MPN") "NCP1117ST33T3G")
+				(field
+					(name "LCSC Part") "C26537")
+				(field
+					(name "Footprint") "jlcpcb:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Linear-Voltage-Regulators_ON_NCP1117ST33T3G_NCP1117ST33T3G_C26537.html")
+				(field
+					(name "Description") "3.3V 800mA regulator")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "NCP1117ST33T3G")
+				(description "3.3V 800mA regulator")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi(安森美)")
+			)
+			(property
+				(name "MPN")
+				(value "NCP1117ST33T3G")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C26537")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Linear Voltage Regulators (LDO)")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "6ccd4d32-54a8-4858-bf20-d81b50bef5da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "USBC1")
+			(value "MC-311D")
+			(footprint "jlcpcb:USB-C-SMD_MC-311D")
+			(datasheet "https://lcsc.com/product-detail/USB-Type-C_MC-311D_C136423.html")
+			(description "USB C Socket")
+			(fields
+				(field
+					(name "Manufacturer") "SOFNG(硕方)")
+				(field
+					(name "MPN") "MC-311D")
+				(field
+					(name "LCSC Part") "C136423")
+				(field
+					(name "Footprint") "jlcpcb:USB-C-SMD_MC-311D")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/USB-Type-C_MC-311D_C136423.html")
+				(field
+					(name "Description") "USB C Socket")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "MC-311D")
+				(description "USB C Socket")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SOFNG(硕方)")
+			)
+			(property
+				(name "MPN")
+				(value "MC-311D")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C136423")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "USB Connectors")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "9d50ea05-d53c-4213-b663-ca2b02f87fff")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A1-B12")
+						)
+						(pin
+							(num "A4-B9")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "A8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "B8")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "B6")
+						)
+						(pin
+							(num "B5")
+						)
+						(pin
+							(num "B4-A9")
+						)
+						(pin
+							(num "B1-A12")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "X1")
+			(value "12MHz")
+			(footprint "jlcpcb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+			(datasheet "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html")
+			(description "Crystal 12MHZ 20PF 10PPM -40~+85℃")
+			(fields
+				(field
+					(name "Manufacturer") "YXC(扬兴晶振)")
+				(field
+					(name "MPN") "X322512MSB4SI")
+				(field
+					(name "LCSC Part") "C9002")
+				(field
+					(name "Footprint") "jlcpcb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html")
+				(field
+					(name "Description") "Crystal 12MHZ 20PF 10PPM -40~+85℃")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "X322512MSB4SI")
+				(description "Crystal 12MHZ 20PF 10PPM -40~+85℃")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YXC(扬兴晶振)")
+			)
+			(property
+				(name "MPN")
+				(value "X322512MSB4SI")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C9002")
+			)
+			(property
+				(name "Sheetname")
+				(value "rp2040")
+			)
+			(property
+				(name "Sheetfile")
+				(value "rp2040.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Crystals")
+			)
+			(sheetpath
+				(names "/rp2040/")
+				(tstamps "/de1a7ee9-251a-4ac8-ae90-4fe30991e0ef/")
+			)
+			(tstamps "627b8d3b-3dfe-4a19-8a8c-bd59720f9359")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "EC11E15244G1")
+			(footprint "jlcpcb:SW-TH_EC11E15244G1")
+			(datasheet "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+			(description "Rotary Encoder")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "EC11E15244G1")
+				(field
+					(name "LCSC Part") "C370970")
+				(field
+					(name "Footprint") "jlcpcb:SW-TH_EC11E15244G1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+				(field
+					(name "Description") "Rotary Encoder")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "EC11E15244G1")
+				(description "Rotary Encoder")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "EC11E15244G1")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C370970")
+			)
+			(property
+				(name "Sheetname")
+				(value "encoders")
+			)
+			(property
+				(name "Sheetfile")
+				(value "encoders.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Rotary Encoders")
+			)
+			(sheetpath
+				(names "/encoders/")
+				(tstamps "/b6fa735c-0297-45cf-afbe-df48e65d71bb/")
+			)
+			(tstamps "8f1e0994-39a7-43fc-a9ef-cf4cebcde13b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+						(pin
+							(num "E")
+						)
+						(pin
+							(num "B")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW4")
+			(value "EC11E15244G1")
+			(footprint "jlcpcb:SW-TH_EC11E15244G1")
+			(datasheet "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+			(description "Rotary Encoder")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "EC11E15244G1")
+				(field
+					(name "LCSC Part") "C370970")
+				(field
+					(name "Footprint") "jlcpcb:SW-TH_EC11E15244G1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+				(field
+					(name "Description") "Rotary Encoder")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "EC11E15244G1")
+				(description "Rotary Encoder")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "EC11E15244G1")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C370970")
+			)
+			(property
+				(name "Sheetname")
+				(value "encoders")
+			)
+			(property
+				(name "Sheetfile")
+				(value "encoders.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Rotary Encoders")
+			)
+			(sheetpath
+				(names "/encoders/")
+				(tstamps "/b6fa735c-0297-45cf-afbe-df48e65d71bb/")
+			)
+			(tstamps "45e95cae-ec80-42cd-ba88-506831ca0b41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+						(pin
+							(num "E")
+						)
+						(pin
+							(num "B")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW5")
+			(value "EC11E15244G1")
+			(footprint "jlcpcb:SW-TH_EC11E15244G1")
+			(datasheet "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+			(description "Rotary Encoder")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "EC11E15244G1")
+				(field
+					(name "LCSC Part") "C370970")
+				(field
+					(name "Footprint") "jlcpcb:SW-TH_EC11E15244G1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+				(field
+					(name "Description") "Rotary Encoder")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "EC11E15244G1")
+				(description "Rotary Encoder")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "EC11E15244G1")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C370970")
+			)
+			(property
+				(name "Sheetname")
+				(value "encoders")
+			)
+			(property
+				(name "Sheetfile")
+				(value "encoders.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Rotary Encoders")
+			)
+			(sheetpath
+				(names "/encoders/")
+				(tstamps "/b6fa735c-0297-45cf-afbe-df48e65d71bb/")
+			)
+			(tstamps "37d4d5df-3046-4040-bfbc-0a3ccb3bc952")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+						(pin
+							(num "E")
+						)
+						(pin
+							(num "B")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW6")
+			(value "EC11E15244G1")
+			(footprint "jlcpcb:SW-TH_EC11E15244G1")
+			(datasheet "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+			(description "Rotary Encoder")
+			(fields
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "EC11E15244G1")
+				(field
+					(name "LCSC Part") "C370970")
+				(field
+					(name "Footprint") "jlcpcb:SW-TH_EC11E15244G1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+				(field
+					(name "Description") "Rotary Encoder")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "EC11E15244G1")
+				(description "Rotary Encoder")
+			)
+			(property
+				(name "Manufacturer")
+				(value "ALPSALPINE(阿尔卑斯阿尔派)")
+			)
+			(property
+				(name "MPN")
+				(value "EC11E15244G1")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C370970")
+			)
+			(property
+				(name "Sheetname")
+				(value "encoders")
+			)
+			(property
+				(name "Sheetfile")
+				(value "encoders.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Rotary Encoders")
+			)
+			(sheetpath
+				(names "/encoders/")
+				(tstamps "/b6fa735c-0297-45cf-afbe-df48e65d71bb/")
+			)
+			(tstamps "99be5d82-2c86-4047-9736-d1861a0778f3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "A")
+						)
+						(pin
+							(num "C")
+						)
+						(pin
+							(num "E")
+						)
+						(pin
+							(num "B")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LCD1")
+			(value "HS180S10B")
+			(footprint "jlcpcb:LCD-TH_L56.0-W35.0-P2.54_HS180S10B")
+			(datasheet "https://www.lcsc.com/datasheet/C5329585.pdf")
+			(description "LCD Module 160x128 28.03x35.04mm")
+			(fields
+				(field
+					(name "Manufacturer") "HS(汉昇)")
+				(field
+					(name "MPN") "HS180S10B")
+				(field
+					(name "LCSC Part") "C5329585")
+				(field
+					(name "Footprint") "jlcpcb:LCD-TH_L56.0-W35.0-P2.54_HS180S10B")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5329585.pdf")
+				(field
+					(name "Description") "LCD Module 160x128 28.03x35.04mm")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "HS180S10B")
+				(description "LCD Module 160x128 28.03x35.04mm")
+			)
+			(property
+				(name "Manufacturer")
+				(value "HS(汉昇)")
+			)
+			(property
+				(name "MPN")
+				(value "HS180S10B")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C5329585")
+			)
+			(property
+				(name "Sheetname")
+				(value "lcd")
+			)
+			(property
+				(name "Sheetfile")
+				(value "lcd.kicad_sch")
+			)
+			(sheetpath
+				(names "/lcd/")
+				(tstamps "/3a542cf4-c4b2-4878-80be-6c3fa034fdc4/")
+			)
+			(tstamps "d63f10b0-ed5b-46bb-9545-766ff358bd3c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "2N7002")
+			(footprint "jlcpcb:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
+			(datasheet "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html")
+			(description "MOSFET N-Channel 2N7002")
+			(fields
+				(field
+					(name "Manufacturer") "CJ(江苏长电/长晶)")
+				(field
+					(name "MPN") "2N7002")
+				(field
+					(name "LCSC Part") "C8545")
+				(field
+					(name "Footprint") "jlcpcb:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html")
+				(field
+					(name "Description") "MOSFET N-Channel 2N7002")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "2N7002")
+				(description "MOSFET N-Channel 2N7002")
+			)
+			(property
+				(name "Manufacturer")
+				(value "CJ(江苏长电/长晶)")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C8545")
+			)
+			(property
+				(name "Sheetname")
+				(value "lcd")
+			)
+			(property
+				(name "Sheetfile")
+				(value "lcd.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "MOSFETs")
+			)
+			(sheetpath
+				(names "/lcd/")
+				(tstamps "/3a542cf4-c4b2-4878-80be-6c3fa034fdc4/")
+			)
+			(tstamps "a1604f0f-4e63-40dc-8329-2db1fc464a1f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "100")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C25076.html")
+			(description "100Ω (1000) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1000TCE")
+				(field
+					(name "LCSC Part") "C25076")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C25076.html")
+				(field
+					(name "Description") "100Ω (1000) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF1000TCE")
+				(description "100Ω (1000) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1000TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25076")
+			)
+			(property
+				(name "Sheetname")
+				(value "lcd")
+			)
+			(property
+				(name "Sheetfile")
+				(value "lcd.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/lcd/")
+				(tstamps "/3a542cf4-c4b2-4878-80be-6c3fa034fdc4/")
+			)
+			(tstamps "f7874964-efaa-4825-8859-648cc17cb11c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "68")
+			(footprint "jlcpcb:R0603")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_68R-68R0-1_C27592.html")
+			(description "68Ω (68R0) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0603WAF680JT5E")
+				(field
+					(name "LCSC Part") "C27592")
+				(field
+					(name "Footprint") "jlcpcb:R0603")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_68R-68R0-1_C27592.html")
+				(field
+					(name "Description") "68Ω (68R0) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0603WAF680JT5E")
+				(description "68Ω (68R0) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0603WAF680JT5E")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C27592")
+			)
+			(property
+				(name "Sheetname")
+				(value "lcd")
+			)
+			(property
+				(name "Sheetfile")
+				(value "lcd.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/lcd/")
+				(tstamps "/3a542cf4-c4b2-4878-80be-6c3fa034fdc4/")
+			)
+			(tstamps "07e79654-3a99-4dcf-bbdf-ce81e617f0a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10k")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+			(description "10KΩ (1002) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1002TCE")
+				(field
+					(name "LCSC Part") "C25744")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+				(field
+					(name "Description") "10KΩ (1002) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF1002TCE")
+				(description "10KΩ (1002) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1002TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25744")
+			)
+			(property
+				(name "Sheetname")
+				(value "lcd")
+			)
+			(property
+				(name "Sheetfile")
+				(value "lcd.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/lcd/")
+				(tstamps "/3a542cf4-c4b2-4878-80be-6c3fa034fdc4/")
+			)
+			(tstamps "ab5f43b2-ed27-4276-8c17-cc13b16ec90c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "bdcddde7-0c74-4f80-8629-6743c2999574")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "8ee2985d-3011-40a3-b5cd-21983e7700b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "a89761c4-8607-4981-903c-914c39484640")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "100nF")
+			(footprint "jlcpcb:C0402")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(description "100nF (104) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL05B104KO5NNNC")
+				(description "100nF (104) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1525")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "28c60571-373b-46c7-9878-33e82a4687fc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "10uF")
+			(footprint "jlcpcb:C0805")
+			(datasheet "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+			(description "10uF (106) ±10% 16V")
+			(fields
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL21A106KOQNNNE")
+				(field
+					(name "LCSC Part") "C1713")
+				(field
+					(name "Footprint") "jlcpcb:C0805")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+				(field
+					(name "Description") "10uF (106) ±10% 16V")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "CL21A106KOQNNNE")
+				(description "10uF (106) ±10% 16V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "SAMSUNG(三星)")
+			)
+			(property
+				(name "MPN")
+				(value "CL21A106KOQNNNE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C1713")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Multilayer Ceramic Capacitors MLCC - SMD/SMT")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "ccdad7f3-cbba-48ef-938a-3f3808c5d6b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "WS2812C")
+			(footprint "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+			(datasheet "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+			(description "LED WS2812")
+			(fields
+				(field
+					(name "Manufacturer") "worldsemi")
+				(field
+					(name "MPN") "WS2812C")
+				(field
+					(name "LCSC Part") "C114587")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+				(field
+					(name "Description") "LED WS2812")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "WS2812C")
+				(description "LED WS2812")
+			)
+			(property
+				(name "Manufacturer")
+				(value "worldsemi")
+			)
+			(property
+				(name "MPN")
+				(value "WS2812C")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C114587")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Light Emitting Diodes (LED)")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "f402ac49-e132-4376-a01f-5b7407982bd5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4")
+			(value "WS2812C")
+			(footprint "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+			(datasheet "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+			(description "LED WS2812")
+			(fields
+				(field
+					(name "Manufacturer") "worldsemi")
+				(field
+					(name "MPN") "WS2812C")
+				(field
+					(name "LCSC Part") "C114587")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+				(field
+					(name "Description") "LED WS2812")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "WS2812C")
+				(description "LED WS2812")
+			)
+			(property
+				(name "Manufacturer")
+				(value "worldsemi")
+			)
+			(property
+				(name "MPN")
+				(value "WS2812C")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C114587")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Light Emitting Diodes (LED)")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "1186f30d-bc44-45ad-9bac-6aad9411145b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED5")
+			(value "WS2812C")
+			(footprint "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+			(datasheet "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+			(description "LED WS2812")
+			(fields
+				(field
+					(name "Manufacturer") "worldsemi")
+				(field
+					(name "MPN") "WS2812C")
+				(field
+					(name "LCSC Part") "C114587")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+				(field
+					(name "Description") "LED WS2812")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "WS2812C")
+				(description "LED WS2812")
+			)
+			(property
+				(name "Manufacturer")
+				(value "worldsemi")
+			)
+			(property
+				(name "MPN")
+				(value "WS2812C")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C114587")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Light Emitting Diodes (LED)")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "4d5d2657-cf1f-4932-9443-283e1810836d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED6")
+			(value "WS2812C")
+			(footprint "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+			(datasheet "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+			(description "LED WS2812")
+			(fields
+				(field
+					(name "Manufacturer") "worldsemi")
+				(field
+					(name "MPN") "WS2812C")
+				(field
+					(name "LCSC Part") "C114587")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+				(field
+					(name "Description") "LED WS2812")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "WS2812C")
+				(description "LED WS2812")
+			)
+			(property
+				(name "Manufacturer")
+				(value "worldsemi")
+			)
+			(property
+				(name "MPN")
+				(value "WS2812C")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C114587")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Light Emitting Diodes (LED)")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "fdff5730-5986-40ae-8692-fbc7a638091e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "470")
+			(footprint "jlcpcb:R0402")
+			(datasheet "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C25117.html")
+			(description "470Ω (4700) ±1%")
+			(fields
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF4700TCE")
+				(field
+					(name "LCSC Part") "C25117")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C25117.html")
+				(field
+					(name "Description") "470Ω (4700) ±1%")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "0402WGF4700TCE")
+				(description "470Ω (4700) ±1%")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL(厚声)")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF4700TCE")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C25117")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Resistors")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "10f13d0f-afe4-4aa1-9ec5-f045a9ce87be")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "74AHCT1G125W5-7")
+			(footprint "jlcpcb:SOT-25-5_L3.0-W1.6-P0.95-LS2.8-BL")
+			(datasheet "https://www.lcsc.com/datasheet/C842287.pdf")
+			(description "74AHCT1G125 Buffer/Level Shifter")
+			(fields
+				(field
+					(name "Manufacturer") "DIODES")
+				(field
+					(name "MPN") "74AHCT1G125W5-7")
+				(field
+					(name "LCSC Part") "C842287")
+				(field
+					(name "Footprint") "jlcpcb:SOT-25-5_L3.0-W1.6-P0.95-LS2.8-BL")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C842287.pdf")
+				(field
+					(name "Description") "74AHCT1G125 Buffer/Level Shifter")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "74AHCT1G125W5-7")
+				(description "74AHCT1G125 Buffer/Level Shifter")
+			)
+			(property
+				(name "Manufacturer")
+				(value "DIODES")
+			)
+			(property
+				(name "MPN")
+				(value "74AHCT1G125W5-7")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C842287")
+			)
+			(property
+				(name "Sheetname")
+				(value "leds")
+			)
+			(property
+				(name "Sheetfile")
+				(value "leds.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Buffers / Drivers")
+			)
+			(sheetpath
+				(names "/leds/")
+				(tstamps "/bacb206e-fb69-4d1c-9d47-6a0677363247/")
+			)
+			(tstamps "0c97e40c-6636-42f9-8663-38457e0751a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "PZ254V-11-08P")
+			(footprint "jlcpcb:HDR-TH_8P-P2.54-V-M")
+			(datasheet "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-11-08P_C492407.html")
+			(description "Male Header 1x8")
+			(fields
+				(field
+					(name "Manufacturer") "XFCN(兴飞)")
+				(field
+					(name "MPN") "PZ254V-11-08P")
+				(field
+					(name "LCSC Part") "C492407")
+				(field
+					(name "Footprint") "jlcpcb:HDR-TH_8P-P2.54-V-M")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-11-08P_C492407.html")
+				(field
+					(name "Description") "Male Header 1x8")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "PZ254V-11-08P")
+				(description "Male Header 1x8")
+			)
+			(property
+				(name "Manufacturer")
+				(value "XFCN(兴飞)")
+			)
+			(property
+				(name "MPN")
+				(value "PZ254V-11-08P")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C492407")
+			)
+			(property
+				(name "Sheetname")
+				(value "headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Pin Headers")
+			)
+			(sheetpath
+				(names "/headers/")
+				(tstamps "/2a08148c-3c62-4a68-9e54-6956994bee8a/")
+			)
+			(tstamps "d313a904-b938-41b8-a965-ce01412bbf94")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "PZ254V-11-08P")
+			(footprint "jlcpcb:HDR-TH_8P-P2.54-V-M")
+			(datasheet "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-11-08P_C492407.html")
+			(description "Male Header 1x8")
+			(fields
+				(field
+					(name "Manufacturer") "XFCN(兴飞)")
+				(field
+					(name "MPN") "PZ254V-11-08P")
+				(field
+					(name "LCSC Part") "C492407")
+				(field
+					(name "Footprint") "jlcpcb:HDR-TH_8P-P2.54-V-M")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-11-08P_C492407.html")
+				(field
+					(name "Description") "Male Header 1x8")
+			)
+			(libsource
+				(lib "jlcpcb")
+				(part "PZ254V-11-08P")
+				(description "Male Header 1x8")
+			)
+			(property
+				(name "Manufacturer")
+				(value "XFCN(兴飞)")
+			)
+			(property
+				(name "MPN")
+				(value "PZ254V-11-08P")
+			)
+			(property
+				(name "LCSC Part")
+				(value "C492407")
+			)
+			(property
+				(name "Sheetname")
+				(value "headers")
+			)
+			(property
+				(name "Sheetfile")
+				(value "headers.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Pin Headers")
+			)
+			(sheetpath
+				(names "/headers/")
+				(tstamps "/2a08148c-3c62-4a68-9e54-6956994bee8a/")
+			)
+			(tstamps "e68f5138-bd45-4f77-87a1-79025fc7fc73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "jlcpcb")
+			(part "0402CG300J500NT")
+			(description "30pF (300) ±5% 50V")
+			(docs "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "30pF")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html")
+				(field
+					(name "Description") "30pF (300) ±5% 50V")
+				(field
+					(name "Manufacturer") "FH(风华)")
+				(field
+					(name "MPN") "0402CG300J500NT")
+				(field
+					(name "LCSC Part") "C1570")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0402WGF1000TCE")
+			(description "100Ω (1000) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C25076.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "100")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C25076.html")
+				(field
+					(name "Description") "100Ω (1000) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1000TCE")
+				(field
+					(name "LCSC Part") "C25076")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0402WGF1001TCE")
+			(description "1KΩ (1001) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C11702.html")
+				(field
+					(name "Description") "1KΩ (1001) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1001TCE")
+				(field
+					(name "LCSC Part") "C11702")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0402WGF1002TCE")
+			(description "10KΩ (1002) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "10k")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html")
+				(field
+					(name "Description") "10KΩ (1002) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF1002TCE")
+				(field
+					(name "LCSC Part") "C25744")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0402WGF274JTCE")
+			(description "27.4Ω (27R4) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27-4R-27R4-1_C31439.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "27.4R")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_27-4R-27R4-1_C31439.html")
+				(field
+					(name "Description") "27.4Ω (27R4) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF274JTCE")
+				(field
+					(name "LCSC Part") "C31439")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0402WGF4700TCE")
+			(description "470Ω (4700) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C25117.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "470")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C25117.html")
+				(field
+					(name "Description") "470Ω (4700) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF4700TCE")
+				(field
+					(name "LCSC Part") "C25117")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0402WGF5101TCE")
+			(description "5.1KΩ (5101) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "5.1k")
+				(field
+					(name "Footprint") "jlcpcb:R0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html")
+				(field
+					(name "Description") "5.1KΩ (5101) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0402WGF5101TCE")
+				(field
+					(name "LCSC Part") "C25905")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0603WAF1501T5E")
+			(description "1.5KΩ (1501) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-5KR-1501-1_C22843.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1.5k")
+				(field
+					(name "Footprint") "jlcpcb:R0603")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-5KR-1501-1_C22843.html")
+				(field
+					(name "Description") "1.5KΩ (1501) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0603WAF1501T5E")
+				(field
+					(name "LCSC Part") "C22843")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "0603WAF680JT5E")
+			(description "68Ω (68R0) ±1%")
+			(docs "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_68R-68R0-1_C27592.html")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "68")
+				(field
+					(name "Footprint") "jlcpcb:R0603")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_68R-68R0-1_C27592.html")
+				(field
+					(name "Description") "68Ω (68R0) ±1%")
+				(field
+					(name "Manufacturer") "UNI-ROYAL(厚声)")
+				(field
+					(name "MPN") "0603WAF680JT5E")
+				(field
+					(name "LCSC Part") "C27592")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "2N7002")
+			(description "MOSFET N-Channel 2N7002")
+			(docs "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "2N7002")
+				(field
+					(name "Footprint") "jlcpcb:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/MOSFET_2N7002-7002_C8545.html")
+				(field
+					(name "Description") "MOSFET N-Channel 2N7002")
+				(field
+					(name "Manufacturer") "CJ(江苏长电/长晶)")
+				(field
+					(name "MPN") "2N7002")
+				(field
+					(name "LCSC Part") "C8545")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "74AHCT1G125W5-7")
+			(description "74AHCT1G125 Buffer/Level Shifter")
+			(docs "https://www.lcsc.com/datasheet/C842287.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74AHCT1G125W5-7")
+				(field
+					(name "Footprint") "jlcpcb:SOT-25-5_L3.0-W1.6-P0.95-LS2.8-BL")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C842287.pdf")
+				(field
+					(name "Description") "74AHCT1G125 Buffer/Level Shifter")
+				(field
+					(name "Manufacturer") "DIODES")
+				(field
+					(name "MPN") "74AHCT1G125W5-7")
+				(field
+					(name "LCSC Part") "C842287")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{OE}")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "Vcc")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "B5819W_C8598")
+			(description "Schottky Diode 1A")
+			(docs "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "B5819W_C8598")
+				(field
+					(name "Footprint") "jlcpcb:SOD-123_L2.7-W1.6-LS3.7-RD-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_B5819W-SL_C8598.html")
+				(field
+					(name "Description") "Schottky Diode 1A")
+				(field
+					(name "Manufacturer") "CJ(江苏长电/长晶)")
+				(field
+					(name "MPN") "B5819W SL")
+				(field
+					(name "LCSC Part") "C8598")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "-")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "+")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "CL05A105KA5NQNC")
+			(description "1uF (105) ±10% 25V")
+			(docs "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "1uF")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html")
+				(field
+					(name "Description") "1uF (105) ±10% 25V")
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05A105KA5NQNC")
+				(field
+					(name "LCSC Part") "C52923")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "CL05B104KO5NNNC")
+			(description "100nF (104) ±10% 16V")
+			(docs "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "100nF")
+				(field
+					(name "Footprint") "jlcpcb:C0402")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html")
+				(field
+					(name "Description") "100nF (104) ±10% 16V")
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "LCSC Part") "C1525")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "CL21A106KOQNNNE")
+			(description "10uF (106) ±10% 16V")
+			(docs "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10uF")
+				(field
+					(name "Footprint") "jlcpcb:C0805")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A106KOQNNNE_10uF-106-10-16V_C1713.html")
+				(field
+					(name "Description") "10uF (106) ±10% 16V")
+				(field
+					(name "Manufacturer") "SAMSUNG(三星)")
+				(field
+					(name "MPN") "CL21A106KOQNNNE")
+				(field
+					(name "LCSC Part") "C1713")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "EC11E15244G1")
+			(description "Rotary Encoder")
+			(docs "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "EC11E15244G1")
+				(field
+					(name "Footprint") "jlcpcb:SW-TH_EC11E15244G1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Others_ALPS-Electric-EC11E15244G1_C370970.html")
+				(field
+					(name "Description") "Rotary Encoder")
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "EC11E15244G1")
+				(field
+					(name "LCSC Part") "C370970")
+			)
+			(pins
+				(pin
+					(num "6")
+					(name "6")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "unspecified")
+				)
+				(pin
+					(num "A")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "B")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "C")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "D")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "E")
+					(name "E")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "HS180S10B")
+			(description "LCD Module 160x128 28.03x35.04mm")
+			(docs "https://www.lcsc.com/datasheet/C5329585.pdf")
+			(fields
+				(field
+					(name "Reference") "LCD")
+				(field
+					(name "Value") "HS180S10B")
+				(field
+					(name "Footprint") "jlcpcb:LCD-TH_L56.0-W35.0-P2.54_HS180S10B")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C5329585.pdf")
+				(field
+					(name "Description") "LCD Module 160x128 28.03x35.04mm")
+				(field
+					(name "Manufacturer") "HS(汉昇)")
+				(field
+					(name "MPN") "HS180S10B")
+				(field
+					(name "LCSC Part") "C5329585")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "VCC")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "CLK")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "SDA")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "RES")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "DC")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "CS1")
+					(type "unspecified")
+				)
+				(pin
+					(num "8")
+					(name "BLK")
+					(type "unspecified")
+				)
+				(pin
+					(num "9")
+					(name "FS0")
+					(type "unspecified")
+				)
+				(pin
+					(num "10")
+					(name "FCS")
+					(type "unspecified")
+				)
+				(pin
+					(num "11")
+					(name "VCC")
+					(type "unspecified")
+				)
+				(pin
+					(num "12")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "13")
+					(name "BLA")
+					(type "unspecified")
+				)
+				(pin
+					(num "14")
+					(name "FCS")
+					(type "unspecified")
+				)
+				(pin
+					(num "15")
+					(name "FS0")
+					(type "unspecified")
+				)
+				(pin
+					(num "16")
+					(name "CLK")
+					(type "unspecified")
+				)
+				(pin
+					(num "17")
+					(name "SDA")
+					(type "unspecified")
+				)
+				(pin
+					(num "18")
+					(name "DC")
+					(type "unspecified")
+				)
+				(pin
+					(num "19")
+					(name "RES")
+					(type "unspecified")
+				)
+				(pin
+					(num "20")
+					(name "CS1")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "KT-0603R")
+			(description "LED Red 0603")
+			(docs "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "KT-0603R")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_L1.6-W0.8-R-RD")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html")
+				(field
+					(name "Description") "LED Red 0603")
+				(field
+					(name "Manufacturer") "KENTO")
+				(field
+					(name "MPN") "KT-0603R")
+				(field
+					(name "LCSC Part") "C2286")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "MC-311D")
+			(description "USB C Socket")
+			(docs "https://lcsc.com/product-detail/USB-Type-C_MC-311D_C136423.html")
+			(fields
+				(field
+					(name "Reference") "USBC")
+				(field
+					(name "Value") "MC-311D")
+				(field
+					(name "Footprint") "jlcpcb:USB-C-SMD_MC-311D")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/USB-Type-C_MC-311D_C136423.html")
+				(field
+					(name "Description") "USB C Socket")
+				(field
+					(name "Manufacturer") "SOFNG(硕方)")
+				(field
+					(name "MPN") "MC-311D")
+				(field
+					(name "LCSC Part") "C136423")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "A1-B12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "A4-B9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A5")
+					(name "CC1")
+					(type "passive")
+				)
+				(pin
+					(num "A6")
+					(name "DP1")
+					(type "passive")
+				)
+				(pin
+					(num "A7")
+					(name "DN1")
+					(type "passive")
+				)
+				(pin
+					(num "A8")
+					(name "SBU1")
+					(type "passive")
+				)
+				(pin
+					(num "B1-A12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B4-A9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B5")
+					(name "CC2")
+					(type "passive")
+				)
+				(pin
+					(num "B6")
+					(name "DP2")
+					(type "passive")
+				)
+				(pin
+					(num "B7")
+					(name "DN2")
+					(type "passive")
+				)
+				(pin
+					(num "B8")
+					(name "SBU2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "NCP1117ST33T3G")
+			(description "3.3V 800mA regulator")
+			(docs "https://lcsc.com/product-detail/Linear-Voltage-Regulators_ON_NCP1117ST33T3G_NCP1117ST33T3G_C26537.html")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "NCP1117ST33T3G")
+				(field
+					(name "Footprint") "jlcpcb:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Linear-Voltage-Regulators_ON_NCP1117ST33T3G_NCP1117ST33T3G_C26537.html")
+				(field
+					(name "Description") "3.3V 800mA regulator")
+				(field
+					(name "Manufacturer") "onsemi(安森美)")
+				(field
+					(name "MPN") "NCP1117ST33T3G")
+				(field
+					(name "LCSC Part") "C26537")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "ADJ/GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "OUTPUT")
+					(type "power_out")
+				)
+				(pin
+					(num "3")
+					(name "INPUT")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "TAB")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "PZ254V-11-08P")
+			(description "Male Header 1x8")
+			(docs "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-11-08P_C492407.html")
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "PZ254V-11-08P")
+				(field
+					(name "Footprint") "jlcpcb:HDR-TH_8P-P2.54-V-M")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-11-08P_C492407.html")
+				(field
+					(name "Description") "Male Header 1x8")
+				(field
+					(name "Manufacturer") "XFCN(兴飞)")
+				(field
+					(name "MPN") "PZ254V-11-08P")
+				(field
+					(name "LCSC Part") "C492407")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "RP2040")
+			(description "RP 2040 microcontroller")
+			(docs "https://www.lcsc.com/datasheet/C2040.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "RP2040")
+				(field
+					(name "Footprint") "jlcpcb:LQFN-56_L7.0-W7.0-P0.4-EP")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C2040.pdf")
+				(field
+					(name "Description") "RP 2040 microcontroller")
+				(field
+					(name "Manufacturer") "Raspberry Pi(树莓派)")
+				(field
+					(name "MPN") "RP2040")
+				(field
+					(name "LCSC Part") "C2040")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GPIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "GPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "GPIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GPIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GPIO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GPIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPIO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GPIO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "TESTEN")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "XIN")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "XOUT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "23")
+					(name "DVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "24")
+					(name "SWCLK")
+					(type "output")
+				)
+				(pin
+					(num "25")
+					(name "SWD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "RUN")
+					(type "input")
+				)
+				(pin
+					(num "27")
+					(name "GPIO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "GPIO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "GPIO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "GPIO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "31")
+					(name "GPIO20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "GPIO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "34")
+					(name "GPIO22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "GPIO23")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "GPIO24")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "GPIO25")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "GPIO26_ADC0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "GPIO27_ADC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "40")
+					(name "GPIO28_ADC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "41")
+					(name "GPIO29_ADC3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "42")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "43")
+					(name "ADC_AVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "44")
+					(name "VREG_IN")
+					(type "power_in")
+				)
+				(pin
+					(num "45")
+					(name "VREG_VOUT")
+					(type "power_in")
+				)
+				(pin
+					(num "46")
+					(name "USB_DM")
+					(type "bidirectional")
+				)
+				(pin
+					(num "47")
+					(name "USB_DP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "48")
+					(name "USB_VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "49")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "50")
+					(name "DVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "51")
+					(name "QSPI_SD3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "52")
+					(name "QSPI_SCLK")
+					(type "output")
+				)
+				(pin
+					(num "53")
+					(name "QSPI_SD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "54")
+					(name "QSPI_SD2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "55")
+					(name "QSPI_SD1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "56")
+					(name "QSPI_SS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "57")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "SKRPABE010")
+			(description "SPST Pushbutton, small smd")
+			(docs "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPABE010_3-2-4-2-2-5-1-57N_C115360.html")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SKRPABE010")
+				(field
+					(name "Footprint") "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRPABE010_3-2-4-2-2-5-1-57N_C115360.html")
+				(field
+					(name "Description") "SPST Pushbutton, small smd")
+				(field
+					(name "Manufacturer") "ALPSALPINE(阿尔卑斯阿尔派)")
+				(field
+					(name "MPN") "SKRPABE010")
+				(field
+					(name "LCSC Part") "C115360")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "W25Q16JVUXIQ")
+			(description "SPI Flash 16Mbit")
+			(docs "https://www.lcsc.com/datasheet/C2843335.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "W25Q16JVUXIQ")
+				(field
+					(name "Footprint") "jlcpcb:USON-8_L3.0-W2.0-P0.50-BL-EP")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/C2843335.pdf")
+				(field
+					(name "Description") "SPI Flash 16Mbit")
+				(field
+					(name "Manufacturer") "Winbond(华邦)")
+				(field
+					(name "MPN") "W25Q16JVUXIQ")
+				(field
+					(name "LCSC Part") "C2843335")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "~{CS}")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "DO(IO1)")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "WP#(IO2)")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "DI(IO0)")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "CLK")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "HOLD#orRESET#(IO3)")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "EP")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "WS2812C")
+			(description "LED WS2812")
+			(docs "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value") "WS2812C")
+				(field
+					(name "Footprint") "jlcpcb:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-4Pin_C114587.html")
+				(field
+					(name "Description") "LED WS2812")
+				(field
+					(name "Manufacturer") "worldsemi")
+				(field
+					(name "MPN") "WS2812C")
+				(field
+					(name "LCSC Part") "C114587")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "DOUT")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "VSS")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "DIN")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "jlcpcb")
+			(part "X322512MSB4SI")
+			(description "Crystal 12MHZ 20PF 10PPM -40~+85℃")
+			(docs "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html")
+			(fields
+				(field
+					(name "Reference") "X")
+				(field
+					(name "Value") "12MHz")
+				(field
+					(name "Footprint") "jlcpcb:CRYSTAL-SMD_4P-L3.2-W2.5-BL")
+				(field
+					(name "Datasheet") "https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html")
+				(field
+					(name "Description") "Crystal 12MHZ 20PF 10PPM -40~+85℃")
+				(field
+					(name "Manufacturer") "YXC(扬兴晶振)")
+				(field
+					(name "MPN") "X322512MSB4SI")
+				(field
+					(name "LCSC Part") "C9002")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OSC1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "OSC2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "jlcpcb")
+			(uri "${KICAD_USER_LIB}/jlcpcb.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+1V1")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "DVDD_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "45")
+				(pinfunction "VREG_VOUT_45")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "50")
+				(pinfunction "DVDD_50")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+3V3")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LCD1")
+				(pin "10")
+				(pinfunction "FCS_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "11")
+				(pinfunction "VCC_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "14")
+				(pinfunction "FCS_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "2")
+				(pinfunction "VCC_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "IOVDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "IOVDD_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "IOVDD_22")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "IOVDD_33")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "42")
+				(pinfunction "IOVDD_42")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "43")
+				(pinfunction "ADC_AVDD_43")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "44")
+				(pinfunction "VREG_IN_44")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "48")
+				(pinfunction "USB_VDD_48")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "49")
+				(pinfunction "IOVDD_49")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "VCC_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "OUTPUT_2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "TAB_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "H1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/encoders/Enc1_A")
+			(class "Default")
+			(node
+				(ref "SW3")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "GPIO16_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/encoders/Enc1_B")
+			(class "Default")
+			(node
+				(ref "SW3")
+				(pin "B")
+				(pinfunction "B_B")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "GPIO17_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/encoders/Enc1_SW")
+			(class "Default")
+			(node
+				(ref "SW3")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "GPIO18_29")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/encoders/Enc2_A")
+			(class "Default")
+			(node
+				(ref "SW4")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "GPIO19_30")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/encoders/Enc2_B")
+			(class "Default")
+			(node
+				(ref "SW4")
+				(pin "B")
+				(pinfunction "B_B")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "GPIO20_31")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "/encoders/Enc2_SW")
+			(class "Default")
+			(node
+				(ref "SW4")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "GPIO21_32")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/encoders/Enc3_A")
+			(class "Default")
+			(node
+				(ref "SW5")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "GPIO22_34")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/encoders/Enc3_B")
+			(class "Default")
+			(node
+				(ref "SW5")
+				(pin "B")
+				(pinfunction "B_B")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "35")
+				(pinfunction "GPIO23_35")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/encoders/Enc3_SW")
+			(class "Default")
+			(node
+				(ref "SW5")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "GPIO24_36")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/encoders/Enc4_A")
+			(class "Default")
+			(node
+				(ref "SW6")
+				(pin "A")
+				(pinfunction "A_A")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "GPIO25_37")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "/encoders/Enc4_B")
+			(class "Default")
+			(node
+				(ref "SW6")
+				(pin "B")
+				(pinfunction "B_B")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "GPIO26_ADC0_38")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/encoders/Enc4_SW")
+			(class "Default")
+			(node
+				(ref "SW6")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "39")
+				(pinfunction "GPIO27_ADC1_39")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "/headers/CS")
+			(class "Default")
+			(node
+				(ref "H1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GPIO1_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "/headers/IRQ")
+			(class "Default")
+			(node
+				(ref "H1")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "GPIO4_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "/headers/MISO")
+			(class "Default")
+			(node
+				(ref "H1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GPIO0_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "/headers/MOSI")
+			(class "Default")
+			(node
+				(ref "H1")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "GPIO3_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "/headers/SCK")
+			(class "Default")
+			(node
+				(ref "H1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GPIO2_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "/lcd/BL")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "GPIO7_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "22")
+			(name "/lcd/CS")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "20")
+				(pinfunction "CS1_20")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "7")
+				(pinfunction "CS1_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "GPIO9_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "/lcd/DC")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "18")
+				(pinfunction "DC_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "6")
+				(pinfunction "DC_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "GPIO8_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "24")
+			(name "/lcd/MOSI")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "17")
+				(pinfunction "SDA_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "4")
+				(pinfunction "SDA_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "GPIO11_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "/lcd/RES")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "19")
+				(pinfunction "RES_19")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "5")
+				(pinfunction "RES_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "GPIO6_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "/lcd/SCK")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "16")
+				(pinfunction "CLK_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "3")
+				(pinfunction "CLK_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "GPIO10_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "/leds/LED")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/leds/LED_3V3")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "GPIO5_7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "29")
+			(name "/rp2040/QSPI_SCLK")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "52")
+				(pinfunction "QSPI_SCLK_52")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "CLK_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "30")
+			(name "/rp2040/QSPI_SD0")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "53")
+				(pinfunction "QSPI_SD0_53")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "DI(IO0)_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "/rp2040/QSPI_SD1")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "55")
+				(pinfunction "QSPI_SD1_55")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "DO(IO1)_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "/rp2040/QSPI_SD2")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "54")
+				(pinfunction "QSPI_SD2_54")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "WP#(IO2)_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "/rp2040/QSPI_SD3")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "51")
+				(pinfunction "QSPI_SD3_51")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "HOLD#orRESET#(IO3)_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "34")
+			(name "/rp2040/QSPI_SS")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "56")
+				(pinfunction "QSPI_SS_56")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "~{CS}_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "/rp2040/RUN")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "RUN_26")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "36")
+			(name "/rp2040/USB_D+")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "A6")
+				(pinfunction "DP1_A6")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "B6")
+				(pinfunction "DP2_B6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "/rp2040/USB_D-")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "A7")
+				(pinfunction "DN1_A7")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "B7")
+				(pinfunction "DN2_B7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/rp2040/USB_VBUS")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "A4-B9")
+				(pinfunction "VBUS_A4-B9")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "B4-A9")
+				(pinfunction "VBUS_B4-A9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "/rp2040/XIN")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "XIN_20")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "X1")
+				(pin "1")
+				(pinfunction "OSC1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "/rp2040/XOUT")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "XOUT_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "41")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "H1")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "H1")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "H2")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "LCD1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LCD1")
+				(pin "12")
+				(pinfunction "GND_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED2")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "3")
+				(pinfunction "VSS_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW3")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW3")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "E")
+				(pinfunction "E_E")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW4")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW4")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "E")
+				(pinfunction "E_E")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW5")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW5")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "E")
+				(pinfunction "E_E")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW6")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW6")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "SW6")
+				(pin "C")
+				(pinfunction "C_C")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW6")
+				(pin "E")
+				(pinfunction "E_E")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "TESTEN_19")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "57")
+				(pinfunction "GND_57")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "EP_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "ADJ/GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "~{OE}_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "USBC1")
+				(pin "1")
+				(pinfunction "SHIELD_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "2")
+				(pinfunction "SHIELD_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "3")
+				(pinfunction "SHIELD_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "4")
+				(pinfunction "SHIELD_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "A1-B12")
+				(pinfunction "GND_A1-B12")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "B1-A12")
+				(pinfunction "GND_B1-A12")
+				(pintype "passive")
+			)
+			(node
+				(ref "X1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "X1")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(LCD1-BLA)")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "13")
+				(pinfunction "BLA_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(LCD1-BLK)")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "8")
+				(pinfunction "BLK_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "44")
+			(name "Net-(LED1-A)")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "Net-(LED2-A)")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "Net-(LED3-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "47")
+			(name "Net-(LED4-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED4")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "48")
+			(name "Net-(LED5-DOUT)")
+			(class "Default")
+			(node
+				(ref "LED5")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "4")
+				(pinfunction "DIN_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "49")
+			(name "Net-(Q1-G)")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "input")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "Net-(U1-USB_DM)")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "46")
+				(pinfunction "USB_DM_46")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "Net-(U1-USB_DP)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "47")
+				(pinfunction "USB_DP_47")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "52")
+			(name "Net-(U4-Y)")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(USBC1-CC1)")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "A5")
+				(pinfunction "CC1_A5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "Net-(USBC1-CC2)")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "USBC1")
+				(pin "B5")
+				(pinfunction "CC2_B5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "Net-(X1-OSC2)")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "X1")
+				(pin "3")
+				(pinfunction "OSC2_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
+			(name "VSYS")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "-_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "INPUT_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "Vcc_5")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(LCD1-FS0-Pad9)")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "9")
+				(pinfunction "FS0_9")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(LCD1-FS0-Pad15)")
+			(class "Default")
+			(node
+				(ref "LCD1")
+				(pin "15")
+				(pinfunction "FS0_15")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(LED6-DOUT-Pad2)")
+			(class "Default")
+			(node
+				(ref "LED6")
+				(pin "2")
+				(pinfunction "DOUT_2")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(SW1-Pad2)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(SW1-Pad4)")
+			(class "Default")
+			(node
+				(ref "SW1")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(SW2-Pad2)")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(SW2-Pad4)")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(U1-GPIO12-Pad15)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "GPIO12_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U1-GPIO13-Pad16)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "GPIO13_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U1-GPIO14-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "GPIO14_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U1-GPIO15-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "GPIO15_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U1-GPIO28_ADC2-Pad40)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "40")
+				(pinfunction "GPIO28_ADC2_40")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U1-GPIO29_ADC3-Pad41)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "41")
+				(pinfunction "GPIO29_ADC3_41")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U1-SWCLK-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "SWCLK_24")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U1-SWD-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "SWD_25")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(USBC1-SBU1-PadA8)")
+			(class "Default")
+			(node
+				(ref "USBC1")
+				(pin "A8")
+				(pinfunction "SBU1_A8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(USBC1-SBU2-PadB8)")
+			(class "Default")
+			(node
+				(ref "USBC1")
+				(pin "B8")
+				(pinfunction "SBU2_B8")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)
