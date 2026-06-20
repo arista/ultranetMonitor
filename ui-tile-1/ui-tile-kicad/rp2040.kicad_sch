@@ -5345,6 +5345,12 @@
 		(uuid "7f23ac42-adfa-4afc-8d1b-86ff4d405a12")
 	)
 	(junction
+		(at 106.68 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "850df1b0-35be-4bce-a70a-938b51b99866")
+	)
+	(junction
 		(at 132.08 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5391,6 +5397,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adc7084d-2205-4e22-97ab-23e05572c37a")
+	)
+	(junction
+		(at 106.68 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bace0146-d590-4614-9979-1bfe1aa64e54")
 	)
 	(junction
 		(at 242.57 127)
@@ -6060,7 +6072,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 110.49 77.47)
+			(xy 102.87 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6440,6 +6452,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 77.47) (xy 106.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687510fc-d547-493f-aa1a-3d05a39f7c77")
+	)
+	(wire
+		(pts
 			(xy 190.5 48.26) (xy 190.5 50.8)
 		)
 		(stroke
@@ -6570,6 +6592,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7782f684-efd9-43fb-9017-566972695d03")
+	)
+	(wire
+		(pts
 			(xy 228.6 138.43) (xy 228.6 146.05)
 		)
 		(stroke
@@ -6670,6 +6702,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 82.55) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897ab31b-0c94-40b5-806d-5584e3c8ce26")
+	)
+	(wire
+		(pts
 			(xy 102.87 90.17) (xy 128.27 90.17)
 		)
 		(stroke
@@ -6727,6 +6769,16 @@
 			(type default)
 		)
 		(uuid "8f897e05-89db-4c07-8a01-ba50447b0e7a")
+	)
+	(wire
+		(pts
+			(xy 106.68 77.47) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90269753-1504-493e-84fa-420719154ca2")
 	)
 	(wire
 		(pts
@@ -6937,6 +6989,16 @@
 			(type default)
 		)
 		(uuid "a4a023cf-6fea-4399-b488-50d5080b8343")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d101db-1462-41a3-ac7d-3e2669d590b9")
 	)
 	(wire
 		(pts
@@ -7568,6 +7630,16 @@
 		)
 		(uuid "07b40551-8b08-47bd-8463-ef6307aa6b0a")
 	)
+	(label "USB_DP"
+		(at 119.38 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dbc5f94-b94d-410e-b4f3-7742e51dc2cf")
+	)
 	(label "+1V1"
 		(at 130.81 184.15 0)
 		(effects
@@ -7597,6 +7669,16 @@
 			(justify left bottom)
 		)
 		(uuid "2763d04c-21c0-4139-b03a-3908057772ba")
+	)
+	(label "USB_DN"
+		(at 119.38 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bbaf5a3-d5e8-4b7a-8876-7cc1cb666f88")
 	)
 	(label "XOUT"
 		(at 227.33 31.75 180)
@@ -7918,7 +8000,7 @@
 		)
 		(uuid "f9613009-1ed2-4f09-b609-c222419f23a9")
 	)
-	(hierarchical_label "LCD_MOSI"
+	(hierarchical_label "LCD_CS"
 		(shape input)
 		(at 128.27 113.03 0)
 		(effects
@@ -7929,7 +8011,7 @@
 		)
 		(uuid "01fd72c9-7dd1-4c8b-9dd3-392268f9e60c")
 	)
-	(hierarchical_label "Enc3_SW"
+	(hierarchical_label "Enc1_SW"
 		(shape input)
 		(at 128.27 146.05 0)
 		(effects
@@ -7940,7 +8022,7 @@
 		)
 		(uuid "05026e77-a83c-4e7a-b426-a5991cb30f3f")
 	)
-	(hierarchical_label "Enc4_A"
+	(hierarchical_label "Enc2_B"
 		(shape input)
 		(at 128.27 148.59 0)
 		(effects
@@ -7951,7 +8033,7 @@
 		)
 		(uuid "0aeae626-ea95-4ac1-b00a-7e47c7c9fdea")
 	)
-	(hierarchical_label "LCD_DC"
+	(hierarchical_label "LCD_MOSI"
 		(shape input)
 		(at 128.27 105.41 0)
 		(effects
@@ -7962,7 +8044,7 @@
 		)
 		(uuid "10698300-4350-4ec2-b9d3-c68f85f48df0")
 	)
-	(hierarchical_label "Enc3_B"
+	(hierarchical_label "Enc1_A"
 		(shape input)
 		(at 128.27 143.51 0)
 		(effects
@@ -7973,7 +8055,7 @@
 		)
 		(uuid "18935604-275e-4ad7-9ffe-6bc7f67b7816")
 	)
-	(hierarchical_label "Enc2_SW"
+	(hierarchical_label "Enc3_SW"
 		(shape input)
 		(at 128.27 138.43 0)
 		(effects
@@ -7984,7 +8066,7 @@
 		)
 		(uuid "1cdc3cf3-70c1-4050-9bf5-6925fc0bf723")
 	)
-	(hierarchical_label "LCD_SCK"
+	(hierarchical_label "LCD_RST"
 		(shape input)
 		(at 128.27 110.49 0)
 		(effects
@@ -7995,7 +8077,7 @@
 		)
 		(uuid "264a1183-c8a2-496f-b0ff-8d118d53d3b4")
 	)
-	(hierarchical_label "Enc1_SW"
+	(hierarchical_label "Enc4_SW"
 		(shape input)
 		(at 128.27 130.81 0)
 		(effects
@@ -8006,7 +8088,7 @@
 		)
 		(uuid "27f951d3-4afc-4cde-a990-a575bac64e7b")
 	)
-	(hierarchical_label "Enc4_SW"
+	(hierarchical_label "Enc2_SW"
 		(shape input)
 		(at 128.27 156.21 0)
 		(effects
@@ -8017,7 +8099,7 @@
 		)
 		(uuid "3d38ef2f-4adc-497d-b49a-2fe25a23e597")
 	)
-	(hierarchical_label "LCD_CS"
+	(hierarchical_label "LCD_DC"
 		(shape input)
 		(at 128.27 107.95 0)
 		(effects
@@ -8028,7 +8110,7 @@
 		)
 		(uuid "4b475f2e-2070-480c-889b-ac7bd05c8edc")
 	)
-	(hierarchical_label "Enc3_A"
+	(hierarchical_label "Enc1_B"
 		(shape input)
 		(at 128.27 140.97 0)
 		(effects
@@ -8039,7 +8121,7 @@
 		)
 		(uuid "62742c22-fae6-425e-8ee4-e79389fb123b")
 	)
-	(hierarchical_label "LCD_RST"
+	(hierarchical_label "LCD_BL"
 		(shape input)
 		(at 128.27 100.33 0)
 		(effects
@@ -8050,7 +8132,7 @@
 		)
 		(uuid "6481e5bd-2777-4419-b954-1822470f8ea1")
 	)
-	(hierarchical_label "LCD_BL"
+	(hierarchical_label "LCD_SCK"
 		(shape input)
 		(at 128.27 102.87 0)
 		(effects
@@ -8061,7 +8143,7 @@
 		)
 		(uuid "90dbe969-c307-4caf-b972-0e3fab7fec68")
 	)
-	(hierarchical_label "Enc4_B"
+	(hierarchical_label "Enc2_A"
 		(shape input)
 		(at 128.27 153.67 0)
 		(effects
@@ -8083,7 +8165,7 @@
 		)
 		(uuid "ab1933c8-8a5f-477b-976b-b3312ea2fbbb")
 	)
-	(hierarchical_label "Enc2_B"
+	(hierarchical_label "Enc3_A"
 		(shape input)
 		(at 128.27 135.89 0)
 		(effects
@@ -8094,7 +8176,7 @@
 		)
 		(uuid "c21c5af8-b0f5-4c23-be1d-1b9628e54656")
 	)
-	(hierarchical_label "Enc1_A"
+	(hierarchical_label "Enc4_B"
 		(shape input)
 		(at 128.27 125.73 0)
 		(effects
@@ -8105,7 +8187,7 @@
 		)
 		(uuid "c6d0d133-6e61-405b-acc1-66d899fb4a61")
 	)
-	(hierarchical_label "Enc2_A"
+	(hierarchical_label "Enc3_B"
 		(shape input)
 		(at 128.27 133.35 0)
 		(effects
@@ -8149,7 +8231,7 @@
 		)
 		(uuid "e1f05076-9f04-4bac-baac-f1f649a38ae4")
 	)
-	(hierarchical_label "Enc1_B"
+	(hierarchical_label "Enc4_A"
 		(shape input)
 		(at 128.27 128.27 0)
 		(effects
