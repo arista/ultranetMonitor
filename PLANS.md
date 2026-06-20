@@ -2,48 +2,60 @@
 
 _ultranetMonitor project planning. General KiCad setup/library/tooling now lives in the sibling `kicad-shared` repo._
 
-Last updated: 2026-06-19
+Last updated: 2026-06-20
 
 ## Board: `ui-tile-1` (UI interface tile)
 
-RP2040-based interface tile. Eventually mounts to a mainboard. Front-panel: **4 rotary encoders** (A/B + push), an **SPI LCD**, and a **string of WS2812** LEDs. Talks to the mainboard over **SPI + IRQ**.
+RP2040-based interface tile. Eventually mounts to a mainboard. Front-panel: **4 rotary encoders** (A/B + push), an **SPI LCD**, and **4 WS2812** LEDs (one per encoder, spread around the board). Talks to the mainboard over **SPI + IRQ**.
 Project files: `ui-tile-1/ui-tile-kicad/ui-tile-kicad.kicad_sch` (+ `.kicad_pcb`).
 
 ## Status
 
-**RP2040 core schematic: complete and ERC-clean.** Done so far:
-- RP2040 (U1) + W25Q16 QSPI flash (U2) + 12 MHz crystal (Pierce, 30 pF loads + 1k series R).
-- Power: USB-C (USBC1) and mainboard 5 V **diode-OR'd** (D1/D2 = B5819W Schottky) into **VSYS** → NCP1117 LDO → **+3V3**. RP2040 internal reg makes +1V1.
-- USB-C: D± series Rs, 5.1k CC pulldowns. Two power-indicator LEDs.
-- All JLCPCB-imported symbol pin types cleaned up; PWR_FLAGs placed; ERC clean.
+**Schematic: COMPLETE and ERC-clean (all sheets).** Hierarchy: root block diagram → `rp2040`, `encoders`, `lcd`, `leds`, `headers` sub-sheets.
 
-## OPEN ITEMS (carry-over)
+- **RP2040 core:** U1 + W25Q16 QSPI flash (U2) + 12 MHz crystal (Pierce, 30 pF loads + 1k series R). Boot (SW1) + Run/reset (SW2) buttons w/ 10k pull-ups.
+- **Power:** USB-C (USBC1) and mainboard 5 V **diode-OR'd** (D1/D2 = B5819W Schottky) into **VSYS** → NCP1117 LDO → **+3V3**. RP2040 internal reg makes +1V1. PWR_FLAGs on +5V and VSYS.
+- **USB-C:** D± series Rs, 5.1k CC pulldowns, two power-indicator LEDs.
+- **Encoders:** SW3–6, A/B/SW each wired to RP2040 (see GPIO map).
+- **LCD (LCD1 = HS180S10B, LCSC C5329585):** SPI1 + DC/RES/CS. VCC pins (2,11)→+3V3, GND (1,12)→GND, FCS (10,14)→+3V3 (flash held deselected), FS0 (9,15) NC. Backlight via low-side MOSFET (see below).
+- **WS2812 (LED3–6):** GPIO5 → **74AHCT1G125** level-shifter (U4, on VSYS) → string. Powered from VSYS. Decoupling added (see layout notes).
+- All JLCPCB-imported symbol pin types cleaned up; ERC clean.
 
-- [ ] **Mainboard connector is missing.** The `/+5V` net dead-ends at D2's anode — there is no physical connector/pads for the board-to-board interface. Need a connector carrying **+5 V, GND, and the mainboard SPI + IRQ** signals (see label list). This is the one real gap in the otherwise-clean power path.
-- [ ] **LCD footprint fix** (done in lib, needs pulling into project): the symbol's Footprint field was corrected `L51.0` → `L56.0` in `kicad-shared/library/jlcpcb.kicad_sym` (it pointed at a non-existent name). Do **Tools → Update Symbols from Library**, then **Update PCB from Schematic (F8)** so the LCD footprint + 3D model appear. LCD part = `HS180S10B` (LCSC **C5329585**).
-
-## NEXT: restructure schematic into a hierarchy
-
-Root sheet is too full to bolt on more. Plan: make the **root a block diagram** with two sibling sub-sheets.
-
+### Backlight sub-circuit (low-side N-MOSFET, PWM on GPIO7)
 ```
-Root (block diagram)
- ├── RP2040   (move existing core here)
- └── UI       (new: encoders + LCD + WS2812)
+VSYS ─[R11 68Ω 0603]─ BLA(13)   BLK(8) ─ Q1·D
+                                         Q1·S ─ GND
+GPIO7 ─[R10 100Ω]─ Q1·G ─[R12 10k]─ GND
 ```
+- Q1 = 2N7002 (SOT-23: G=1, S=2, D=3). R11 carries backlight current (~26 mA, ~53 mW → 0603). R12 holds FET off while GPIO7 is Hi-Z at boot.
+- R11 value assumes ~3 V backlight; verify Vf on bench, drop to 100 Ω if too bright.
 
-Steps (KiCad has no "demote root" command — do it by cut/paste):
-1. **Commit current state in git first** (checkpoint before the structural change).
-2. On root: Place → Add Hierarchical Sheet → name `RP2040`, file `rp2040.kicad_sch`.
-3. Select-all on root, **Shift-click to deselect the new box**, **Cut** (Ctrl+X).
-4. Enter the `RP2040` box, **Paste** (Ctrl+V). Root is now just the box.
-5. **PCB watch-out:** after the move, Tools → Update PCB from Schematic with **"Re-link footprints to schematic symbols based on their reference designators"** ticked (paths change when symbols move sheets).
-6. Replace the no-connect flags on the GPIOs we're using with **hierarchical labels** (list below); import them as **sheet pins** on the RP2040 box.
-7. Add the `UI` sub-sheet and wire the two boxes on the root. Power crosses via power symbols (global), not labels.
+## NEXT: PCB layout (starting 2026-06-21)
+
+Export the netlist and have Claude review after any further schematic changes (`ui-tile-kicad.net`).
+
+### General layout watch-items
+- Decoupling caps hugging power pins (U1 IOVDD/DVDD, U2, U4).
+- Crystal + 30 pF load caps tight to U1.20/21; keep loop small.
+- USB D± as a matched pair (≈90 Ω differential), short.
+- NCP1117 (U3) tab on a generous +3V3 pour with thermal vias.
+
+### WS2812 string (distributed — one LED per encoder)
+- Place each **100 nF (C18–C21) right at its LED's VDD/GND pins** — these matter now that pixels are far apart on long VDD traces.
+- **C22 (10 µF) bulk** near the power feed-in / first pixel (LED3).
+- **R13 (470 Ω) close to the buffer U4 output** (damps the long run to the first pixel). Inter-pixel hops (LED3→4→5→6) need no resistors — each WS2812 re-buffers.
+- VSYS trunk to the LEDs wide enough for **~240 mA** worst case (4 × ~60 mA full white); solid GND return.
+- Put level-shifter U4 near the first pixel / GPIO5 exit.
+
+### Backlight / LCD
+- Keep Q1 + R10/R11/R12 grouped near the LCD connector.
+
+## Mainboard interface (headers H1/H2)
+- Two 1×8 stacking headers wired **in parallel** (intentional). Pinout per header: 1=+5V, 2=CS, 3=SCK, 4=MISO, 5=MOSI, 6=IRQ, 7=GND, 8=GND.
 
 ## GPIO pin map (PROVISIONAL — optimize during routing)
 
-RP2040 has 30 GPIO (0–29), all free. Using **24**, 6 spare. Pin assignments are flexible (firmware-defined) — let routing drive final placement; only the hardware-SPI signals are lightly constrained, and QSPI/USB/crystal/power are fixed.
+RP2040 has 30 GPIO (0–29). Using **24**, 6 spare. Assignments are firmware-defined and flexible — let routing drive final placement; only hardware-SPI is lightly constrained, QSPI/USB/crystal/power are fixed.
 
 | GPIO | Use | GPIO | Use |
 |---|---|---|---|
@@ -64,28 +76,7 @@ RP2040 has 30 GPIO (0–29), all free. Using **24**, 6 spare. Pin assignments ar
 - Mainboard = SPI0, LCD = SPI1 (two hardware SPI blocks). Encoders + WS2812 via **PIO**.
 - Encoder A/B pairs are on adjacent pins (16/17, 19/20, 22/23, 25/26) for PIO quadrature.
 
-## Hierarchical labels to create on the RP2040 sheet (24)
-
-Name nets by **function, not pin** so reassignment is painless. Direction is from the RP2040's view (documentation only — Bidirectional is fine if unsure).
-
-**Encoders → UI (In):** `ENC1_A` `ENC1_B` `ENC1_SW` `ENC2_A` `ENC2_B` `ENC2_SW` `ENC3_A` `ENC3_B` `ENC3_SW` `ENC4_A` `ENC4_B` `ENC4_SW`
-
-**WS2812 + LCD → UI (Out):** `WS2812_DIN` `LCD_SCK` `LCD_MOSI` `LCD_CS` `LCD_DC` `LCD_RST` `LCD_BL`
-
-**Mainboard → connector** (assuming tile = SPI **slave**): `MB_SCK` (In) `MB_MOSI` (In) `MB_MISO` (Out) `MB_CS` (In) `MB_IRQ` (Out)
-
-The `UI` sheet gets mirror copies of the 19 `ENC*`/`WS2812_DIN`/`LCD_*` names (opposite direction). The 5 `MB_*` labels become sheet pins wired to the mainboard connector on the root.
-
-## Decisions / risks to settle
-
-- [ ] **WS2812 level shifter:** if the string runs at 5 V, RP2040's 3.3 V data is marginal (V_IH ≈ 3.5 V). Add a single-gate **74AHCT1G125** buffer (powered from 5 V) on GPIO5's line. Lives in the UI sheet near the LEDs.
-- [ ] **WS2812 power budget:** ~60 mA/pixel at full white. **How many LEDs?** Matters for the VSYS/5 V source and the USB-500 mA programming cap. (Power question, not pins.)
+## Open questions / later
 - [ ] **Mainboard SPI master/slave** — assumed tile = slave (IRQ = tile→mainboard). If master, flip the `MB_` SPI directions.
-- [ ] **LCD backlight** — if hardwired on (not PWM), drop `LCD_BL` and reclaim GPIO7.
-- [ ] Pin assignments are provisional — expect to shuffle for routing (RP2040 GPIOs are interchangeable; keep functional net names so it's painless).
-
-## After that
-
-- PCB layout. Watch: decoupling caps hugging power pins; crystal + load caps tight to U1.20/21; USB D± matched pair; NCP1117 tab on a generous +3V3 pour with thermal vias.
-- Workflow reminder: export the netlist (`ui-tile-kicad.net`) and have Claude review after schematic changes.
-- Possible later: factor the RP2040 core into a reusable design block (template already cloned to `kicad-shared/templates/rp2040-template/`).
+- [ ] Pin assignments provisional — expect to shuffle for routing; keep functional net names so it's painless.
+- [ ] Possible later: factor the RP2040 core into a reusable design block (template already cloned to `kicad-shared/templates/rp2040-template/`).
