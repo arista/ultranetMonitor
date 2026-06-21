@@ -76,6 +76,16 @@ RP2040 has 30 GPIO (0–29). Using **24**, 6 spare. Assignments are firmware-def
 - Mainboard = SPI0, LCD = SPI1 (two hardware SPI blocks). Encoders + WS2812 via **PIO**.
 - Encoder A/B pairs are on adjacent pins (16/17, 19/20, 22/23, 25/26) for PIO quadrature.
 
+## Fabrication / ordering (JLCPCB, via KiCad "Fabrication Toolkit")
+
+Workflow: DRC-clean → run the Fabrication Toolkit plugin (red factory icon in pcbnew) → it writes a `production/` folder (gerber+drill `.zip`, `bom.csv`, `positions.csv`) → on jlcpcb.com upload the zip, enable assembly, upload BOM + CPL, then **verify every polarized part's rotation in JLC's online preview before paying**.
+
+- `production/` is git-ignored (regenerated on demand). **When you actually place an order, snapshot that exact build to a git tag (e.g. `ui-tile-v1.0`) or a `releases/vX/` folder** — re-running the plugin later may not reproduce bit-identical files.
+- LCSC numbers live in the `LCSC Part` footprint field; the plugin keys on it. 60/64 footprints have one (the 4 mounting holes H3–H6 don't, correctly).
+- **H1/H2 stacking headers** (back side, THT): flagged *exclude from position files + BOM* → JLC won't place them, hand-solder later. Footprints stay in the gerbers.
+- **THT parts JLC WILL assemble:** SW3–SW6 encoders (C370970), LCD1 (C5329585). Through-hole assembly is a pricier add-on — confirm they're assembly-available at upload.
+- **WS2812 LEDs force *Standard* assembly (not Economic).** Addressable RGB LEDs are moisture/reflow/ESD-sensitive, so JLC won't run them on the fixed Economic process — expected, not an error. Options: (A) accept Standard for the whole board (simplest; chosen for the first run), or (B) exclude LED3–6 + hand-solder them to keep the rest Economic (you take on the heat/ESD risk JLC's surcharge covers). Also verify the exact WS2812**C** LCSC is in stock for assembly.
+
 ## Open questions / later
 - [ ] **Mainboard SPI master/slave** — assumed tile = slave (IRQ = tile→mainboard). If master, flip the `MB_` SPI directions.
 - [ ] Pin assignments provisional — expect to shuffle for routing; keep functional net names so it's painless.

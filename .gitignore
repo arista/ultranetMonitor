@@ -18,6 +18,10 @@ _autosave-*
 # Footprint info cache (regenerated automatically)
 fp-info-cache
 
+# Fabrication Toolkit output (gerbers/BOM/CPL zip; regenerated on demand).
+# Snapshot the exact build you ORDER to a git tag or releases/ folder instead.
+production/
+
 # Optionally ignore exported artifacts (uncomment if you generate these):
 # *.net
 # *.dsn
