@@ -18,8 +18,9 @@ _autosave-*
 # Footprint info cache (regenerated automatically)
 fp-info-cache
 
-# Fabrication Toolkit output (gerbers/BOM/CPL zip; regenerated on demand).
-# Snapshot the exact build you ORDER to a git tag or releases/ folder instead.
+# Fabrication Toolkit live output (gerbers/BOM/CPL zip; overwritten every run) — ignored.
+# To archive a build you ORDER, copy production/ to a dated production-YYYY-MM-DD/ folder
+# (not ignored) and commit that as the as-built snapshot.
 production/
 
 # Optionally ignore exported artifacts (uncomment if you generate these):

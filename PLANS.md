@@ -80,7 +80,7 @@ RP2040 has 30 GPIO (0–29). Using **24**, 6 spare. Assignments are firmware-def
 
 Workflow: DRC-clean → run the Fabrication Toolkit plugin (red factory icon in pcbnew) → it writes a `production/` folder (gerber+drill `.zip`, `bom.csv`, `positions.csv`) → on jlcpcb.com upload the zip, enable assembly, upload BOM + CPL, then **verify every polarized part's rotation in JLC's online preview before paying**.
 
-- `production/` is git-ignored (regenerated on demand). **When you actually place an order, snapshot that exact build to a git tag (e.g. `ui-tile-v1.0`) or a `releases/vX/` folder** — re-running the plugin later may not reproduce bit-identical files.
+- The plugin writes its output to `production/` (overwritten every run), which is git-ignored. **To archive a build you order, copy `production/` → `production-YYYY-MM-DD/` and commit that dated folder** as the as-built snapshot (optionally tag the commit, e.g. `ui-tile-v1.0`). Re-running the plugin later may not reproduce bit-identical files, so the committed copy is the record of what was actually sent to JLC.
 - LCSC numbers live in the `LCSC Part` footprint field; the plugin keys on it. 60/64 footprints have one (the 4 mounting holes H3–H6 don't, correctly).
 - **H1/H2 stacking headers** (back side, THT): flagged *exclude from position files + BOM* → JLC won't place them, hand-solder later. Footprints stay in the gerbers.
 - **THT parts JLC WILL assemble:** SW3–SW6 encoders (C370970), LCD1 (C5329585). Through-hole assembly is a pricier add-on — confirm they're assembly-available at upload.
