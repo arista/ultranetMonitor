@@ -541,6 +541,10 @@
       {
         "netclass": "Power",
         "pattern": "VSYS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
       }
     ]
   },

@@ -8198,7 +8198,7 @@
 		)
 		(uuid "ce262748-591a-4b31-9a44-14c8126719c2")
 	)
-	(hierarchical_label "MB_CS"
+	(hierarchical_label "MB_SCK"
 		(shape input)
 		(at 128.27 87.63 0)
 		(effects
@@ -8242,7 +8242,7 @@
 		)
 		(uuid "e29142b9-7d5e-456f-aeff-aef6072b576e")
 	)
-	(hierarchical_label "MB_MISO"
+	(hierarchical_label "MB_CS"
 		(shape input)
 		(at 128.27 85.09 0)
 		(effects
@@ -8253,7 +8253,7 @@
 		)
 		(uuid "e7915c37-7abb-47a4-96f5-1f1b5dc6f734")
 	)
-	(hierarchical_label "MB_SCK"
+	(hierarchical_label "MB_MISO"
 		(shape input)
 		(at 128.27 90.17 0)
 		(effects
