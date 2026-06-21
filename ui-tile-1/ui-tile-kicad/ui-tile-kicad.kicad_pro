@@ -676,7 +676,7 @@
         "uuid": "217f9734-29d5-465f-84f0-e59e73a19da8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H3-7,#PWR45",
     "variants": []
   },
   "sheets": [
@@ -703,6 +703,10 @@
     [
       "2a08148c-3c62-4a68-9e54-6956994bee8a",
       "headers"
+    ],
+    [
+      "8c9c9a44-a12f-401e-b895-c7f4a8d704eb",
+      "mounting holes"
     ]
   ],
   "text_variables": {},

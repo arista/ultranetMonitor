@@ -450,6 +450,52 @@
 		)
 	)
 	(sheet
+		(at 33.02 90.805)
+		(size 17.145 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c9c9a44-a12f-401e-b895-c7f4a8d704eb")
+		(property "Sheetname" "mounting holes"
+			(at 33.02 90.0934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mounting_holes.kicad_sch"
+			(at 33.02 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ui-tile-kicad"
+				(path "/217f9734-29d5-465f-84f0-e59e73a19da8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 134.62 40.64)
 		(size 16.51 33.655)
 		(exclude_from_sim no)
