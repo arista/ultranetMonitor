@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "be4d8a18-3606-49aa-874f-eeed0a4e12dc")
+	(uuid "857376d7-ebc8-4a73-a7b5-76ee2491856a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
